@@ -32,7 +32,7 @@ body {
 	width: 200px;
 	height: 200px;
 	margin: auto;
-box-shadow: 2px 2px 4px #000000;
+box-shadow: 4px 4px 6px #000000;
 }
 
 #header p {
