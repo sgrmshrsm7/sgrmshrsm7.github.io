@@ -27,14 +27,14 @@ body {
 
 #header img {
 	display: block;
-	width: 80px;
-	height: 80px;
+	width: 200px;
+	height: 200px;
 	margin: auto;
 }
 
 #header p {
 	font-size: 25pt;
-	color: #3b464c;
+	color: #fd4720;
 	padding-top: 5px;
 	margin: 0;
 	font-weight: bold;
