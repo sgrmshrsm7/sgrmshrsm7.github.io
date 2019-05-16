@@ -142,6 +142,7 @@ input, textarea {
     width: 50px;
     margin-left: 7px;
     margin-right: 7px;
+box-shadow: 4px 4px 6px #ffffff;
 }
 #contacts a {
     text-decoration: none;
