@@ -14,7 +14,7 @@ body {
 }
 
 .section {
-	background-color: #fff;
+	background: "Images/sp.jpg";
 	padding: 15px;
 	margin-bottom: 10px;
 	border-radius: 10px;
@@ -83,22 +83,7 @@ li {
     margin-bottom: 15px;
     font-weight: bold;
 }
-progress {
-    width: 70%;
-    height: 20px;
-    color: #3fb6b2;
-    background: #efefef;
-}
-progress::-webkit-progress-bar {
-    background: #efefef;
-}
-progress::-webkit-progress-value {
-    background: #3fb6b2;
-} 
-progress::-moz-progress-bar {
-    color: #3fb6b2;
-    background: #efefef;
-}
+
 iframe, audio {
     display: block;
     margin: 0 auto;
