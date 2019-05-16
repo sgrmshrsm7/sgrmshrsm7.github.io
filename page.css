@@ -23,7 +23,7 @@ body {
 }
 
 #header {
-	background-image: url("Images/wall1.jpg");
+	background-image: url("Images/wall2.jpg");
 	background-size: cover;
 }
 
@@ -42,6 +42,7 @@ box-shadow: 4px 4px 6px #000000;
 	margin: 0;
 	font-weight: bold;
 	text-align: center;
+text-shadow: 4px 4px 6px #b3d9ff;
 }
 
 h1 {
