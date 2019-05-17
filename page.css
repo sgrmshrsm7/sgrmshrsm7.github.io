@@ -32,7 +32,7 @@ body {
 	width: 200px;
 	height: 200px;
 	margin: auto;
-box-shadow: 4px 4px 6px #000000;
+	box-shadow: 4px 4px 6px #000000;
 }
 
 #header p {
@@ -42,7 +42,7 @@ box-shadow: 4px 4px 6px #000000;
 	margin: 0;
 	font-weight: bold;
 	text-align: center;
-text-shadow: 4px 4px 6px #000000;
+	text-shadow: 4px 4px 6px #000000;
 }
 
 h1 {
@@ -55,6 +55,7 @@ h1 {
 
 h1 span {
 	border: 4px dashed #20bcd5;
+	border-radius: 10px;
 	padding: 10px;
 }
 
@@ -142,8 +143,8 @@ input, textarea {
     width: 50px;
     margin-left: 7px;
     margin-right: 7px;
-box-shadow: 2px 2px 4px #000000;
-background-color: #ffffff;
+    box-shadow: 2px 2px 4px #000000;
+    background-color: #ffffff;
 }
 #contacts a {
     text-decoration: none;
@@ -153,7 +154,7 @@ background-color: #ffffff;
 }
 #contacts {
     text-align: center;
-background-color: #1F2430;
+    background-color: #1F2430;
 }
 .copyright {
     font-size: 12pt;
