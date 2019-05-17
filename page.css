@@ -66,21 +66,18 @@ p {
 
 p a:link {
 	color: #5f646e;
-	text-decoration: underline;
-	text-decoration-color: #bebfbf;
+	border-bottom: 2px solid #bebfbf;
 }
 
 p a:visited {
 	color: #5f646e;
-	text-decoration: underline;
-	text-decoration-color: #bebfbf;
+	border-bottom: 2px solid #bebfbf;
 }
 
 p a:hover {
 	color: #353e3e;
 	font-weight: bold;
-	text-decoration: underline;
-	text-decoration-color: #48ecf1;
+	border-bottom: 2px solid #48ecf1;
 }
 
 .quote {
