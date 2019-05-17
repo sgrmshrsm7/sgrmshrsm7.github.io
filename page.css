@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Handlee');
+@import url('https://fonts.googleapis.com/css?family=Handlee|Quicksand&display=swap');
 
 html { margin : 0; padding: 0;}
 
@@ -59,24 +59,28 @@ h1 span {
 }
 
 p {
+	font-family: 'Quicksand', sans-serif;
 	padding: 0;
 	margin: 0;
 	color: #5f646e;
 }
 
 p a:link {
+	font-family: 'Quicksand', sans-serif;
 	color: #5f646e;
 	border-bottom: 2px solid #bebfbf;
 	text-decoration: none;
 }
 
 p a:visited {
+	font-family: 'Quicksand', sans-serif;
 	color: #5f646e;
 	border-bottom: 2px solid #bebfbf;
 	text-decoration: none;
 }
 
 p a:hover {
+	font-family: 'Quicksand', sans-serif;
 	color: #353e3e;
 	font-weight: bold;
 	border-bottom: 2px solid #48ecf1;
