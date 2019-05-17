@@ -10,18 +10,6 @@ body {
 	margin: 0;
 }
 
-.img-circle {
-	border: 3px solid white;
-	border-radius: 50%;
-}
-
-.section {
-	background-color: #fff;
-	padding: 15px;
-	margin-bottom: 10px;
-	border-radius: 10px;
-}
-
 #header {
 	background-image: url("Images/wall2.jpg");
 	background-size: cover;
@@ -45,6 +33,18 @@ body {
 	text-shadow: 4px 4px 6px #000000;
 }
 
+.img-circle {
+	border: 3px solid white;
+	border-radius: 50%;
+}
+
+.section {
+	background-color: #fff;
+	padding: 15px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
 h1 {
 	font-size: 15pt;
 	color: #20bcd5;
@@ -61,6 +61,19 @@ h1 span {
 p {
 	padding: 0;
 	margin: 0;
+	color: #5f646e;
+}
+
+p a:link {
+	color: #5f646e;
+}
+
+p a:visited {
+	color: #5f646e;
+}
+
+p a:hover {
+	color: #000000;
 }
 
 .quote {
@@ -69,74 +82,18 @@ p {
     margin-top: 10px;
 }
 
-table {
-    width: 100%;
-}
-table, th, td {
-    border: 2px solid #cecece;
-    border-collapse: collapse;
-    text-align: center;
-    table-layout: fixed;
-}
 .selected {
     background-color: #f36f48;
     font-weight: bold;
     color: white;
 }
-li {
-    margin-bottom: 15px;
-    font-weight: bold;
-}
 
-iframe, audio {
-    display: block;
-    margin: 0 auto;
-    border: 3px solid #3fb6b2;
-}
 hr {
     border: 0;
     height: 1px;
     background: #f36f48;
 }
-form {
-    text-align: center;
-    margin-top: 0;
-}
-.submit {
-    background-color: #3fb6b2;
-    padding: 12px 45px;
-    border-radius: 5px;
-    cursor: pointer;
-    color: #ffffff;
-    border: none;
-    outline: none;
-    margin: 0;
-    font-weight: bold;
-}
-.submit:hover {
-    background-color: #43a09d;
-}
-textarea {
-    height: 100px;
-}
-input, textarea {
-    margin-bottom: 10px;
-    font-size: 11pt;
-    padding: 15px 10px 10px;
-    border: 1px solid #cecece;
-    background-color: #efefef;
-    color: #787575;
-    border-radius: 5px;
-    width: 70%;
-    outline: none;
-}
-.face {
-    transform: scale(0.4);
-    margin: 0 auto;
-    display: block;
-    margin-top: -35px;
-    margin-bottom: -25px;
-}
+
 #contacts img {
     height: 50px;
     width: 50px;
