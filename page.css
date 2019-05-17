@@ -74,6 +74,7 @@ p a:visited {
 
 p a:hover {
 	color: #000000;
+	font-weight: bold;
 }
 
 .quote {
