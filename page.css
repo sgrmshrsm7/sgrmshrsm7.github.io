@@ -67,17 +67,20 @@ p {
 p a:link {
 	color: #5f646e;
 	border-bottom: 2px solid #bebfbf;
+	text-decoration: none;
 }
 
 p a:visited {
 	color: #5f646e;
 	border-bottom: 2px solid #bebfbf;
+	text-decoration: none;
 }
 
 p a:hover {
 	color: #353e3e;
 	font-weight: bold;
 	border-bottom: 2px solid #48ecf1;
+	text-decoration: none;
 }
 
 .quote {
