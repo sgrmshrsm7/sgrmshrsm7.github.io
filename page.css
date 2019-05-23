@@ -90,6 +90,10 @@ p a:hover {
 	text-decoration: none;
 }
 
+ul{
+	padding-left: 40px;
+}
+
 li{
 	font-family: 'Kodchasan', sans-serif;
 	padding-top: 10px;
