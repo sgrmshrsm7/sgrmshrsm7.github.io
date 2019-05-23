@@ -90,6 +90,15 @@ p a:hover {
 	text-decoration: none;
 }
 
+li{
+	font-family: 'Kodchasan', sans-serif;
+	padding-top: 10px;
+  	padding-bottom: 10px;
+  	padding-left: 40px;
+	margin: 0;
+	color: #5f646e;
+}
+
 .quote {
     font-size: 12pt;
     text-align: right;
