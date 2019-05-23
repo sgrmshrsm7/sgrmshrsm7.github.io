@@ -92,15 +92,15 @@ p a:hover {
 
 ul{
 	padding-left: 100px;
+	font-family: 'Kodchasan', sans-serif;
+	color: #5f646e;
 }
 
 li{
-	font-family: 'Kodchasan', sans-serif;
 	padding-top: 10px;
   	padding-bottom: 10px;
   	padding-left: 40px;
 	margin: 0;
-	color: #5f646e;
 }
 
 .quote {
