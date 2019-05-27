@@ -121,6 +121,7 @@ background-color: #D3D3D3;
 border-left: 5px solid #A9A9A9;
 font-family: 'Kodchasan', sans-serif;
 color: #5f646e;
+font-style: italic;
     font-size: 12pt;
     text-align: left;
     margin-top: 10px;
@@ -136,6 +137,7 @@ margin-right: 60px;
 
 .quoty {
 text-align: right;
+font-style: normal;
 }
 
 .selected {
