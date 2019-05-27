@@ -122,7 +122,7 @@ border-left: 5px solid #A9A9A9;
 font-family: 'Kodchasan', sans-serif;
 color: #5f646e;
     font-size: 12pt;
-    text-align: right;
+    text-align: left;
     margin-top: 10px;
 padding-top: 20px;
 padding-bottom: 20px;
@@ -132,6 +132,10 @@ margin-top: 20px;
 margin-bottom: 20px;
 margin-left: 60px;
 margin-right: 60px;
+}
+
+.quoty {
+text-align: right;
 }
 
 .selected {
