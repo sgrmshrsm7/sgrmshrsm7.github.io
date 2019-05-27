@@ -124,8 +124,12 @@ border-left: 5px solid #A9A9A9;
     margin-top: 10px;
 padding-top: 20px;
 padding-bottom: 20px;
-margin-left: 80px;
-margin-right: 80px;
+padding-left: 40px;
+padding-right: 40px;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 60px;
+margin-right: 60px;
 }
 
 .selected {
