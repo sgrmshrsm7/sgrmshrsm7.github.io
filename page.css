@@ -118,7 +118,7 @@ li{
 
 .quote {
 background-color: #D3D3D3;
-
+border-left: 5px solid #A9A9A9;
     font-size: 12pt;
     text-align: right;
     margin-top: 10px;
