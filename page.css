@@ -187,6 +187,24 @@ font-size: 11pt;
 #header img {
 	width: 40vw;
 	height: 40vw;
+box-shadow: 2px 2px 4px #000000;
+}
+
+#header p {
+	font-size: 15pt;
+	padding-top: 10px;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+
+#header h2 {
+	font-size: 14pt;
+	padding-top: 5px;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.img-circle {
+	border: 2px solid white;
 }
 
 }
