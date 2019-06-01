@@ -282,6 +282,14 @@ li{
 	padding-top: 2vmax;
 }
 
+#contacts h1 {
+	font-size: 15pt;
+}
+
+#contacts h1 span {
+	padding: 8px;
+}
+	
 #contacts img {
     	height: 8vw;
     	width: 8vw;
