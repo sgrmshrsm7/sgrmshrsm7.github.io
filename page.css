@@ -152,6 +152,19 @@ hr {
     	background: #f36f48;
 }
 
+#contacts {
+    	text-align: center;
+    	background-color: #1F2430;
+}
+
+#contacts h1 {
+	font-size: 20pt;
+}
+
+#contacts h1 span {
+	padding: 8px;
+}
+
 #contacts img {
     	height: 50px;
     	width: 50px;
@@ -166,10 +179,7 @@ hr {
 #contacts img:hover {
     	opacity: 0.8;
 }
-#contacts {
-    	text-align: center;
-    	background-color: #1F2430;
-}
+
 .copyright {
     	font-size: 13pt;
     	text-align: center;
