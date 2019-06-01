@@ -259,10 +259,11 @@ p {
 
 ul{
 	padding-top: 3vmax;
-  	padding-right: 7vw;
+  	padding-right: 0;
   	padding-bottom: 3vmax;
-  	padding-left: 7vw;
-	margin-left: 80px;
+  	padding-left: 0;
+	margin-left: 7vw;
+	margin-right: 7vw;
 }
 
 li{
