@@ -252,13 +252,16 @@ h1 span {
 	
 p {
 	padding-top: 3vmax;
-  	padding-right: 5vw;
+  	padding-right: 7vw;
   	padding-bottom: 3vmax;
-  	padding-left: 5vw;
+  	padding-left: 7vw;
 }
 
 ul{
-	padding-left: 80px;
+	padding-top: 3vmax;
+  	padding-right: 7vw;
+  	padding-bottom: 3vmax;
+  	padding-left: 7vw;
 }
 
 li{
