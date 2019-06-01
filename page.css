@@ -252,25 +252,24 @@ h1 span {
 	
 p {
 	padding-top: 3vmax;
-  	padding-right: 7vw;
+  	padding-right: 6vw;
   	padding-bottom: 3vmax;
-  	padding-left: 7vw;
+  	padding-left: 6vw;
 }
 
 ul{
 	padding-top: 3vmax;
   	padding-right: 0;
   	padding-bottom: 3vmax;
-  	padding-left: -3vw;
+  	padding-left: 0;
 	margin-left: 10vw;
 	margin-right: 7vw;
 }
 
 li{
-	padding-top: 10px;
-  	padding-bottom: 10px;
-  	padding-left: 40px;
-	margin: 0;
+	padding-top: 1vmax;
+  	padding-bottom: 1vmax;
+  	padding-left: 3vw;
 }
 
 #contacts h1 {
