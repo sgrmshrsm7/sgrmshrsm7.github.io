@@ -261,8 +261,8 @@ ul{
 	padding-top: 3vmax;
   	padding-right: 0;
   	padding-bottom: 3vmax;
-  	padding-left: 0;
-	margin-left: 7vw;
+  	padding-left: -3vw;
+	margin-left: 10vw;
 	margin-right: 7vw;
 }
 
