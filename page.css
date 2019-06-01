@@ -138,6 +138,7 @@ li{
 .quoty {
 	text-align: right;
 	font-style: normal;
+	padding-top: 10px;
 }
 
 .selected {
@@ -269,6 +270,10 @@ li{
 	margin-right: 5vw;
 }
 
+.quoty {
+	padding-top: 2vh;
+}
+
 #contacts img {
     	height: 8vw;
     	width: 8vw;
@@ -278,7 +283,8 @@ li{
 }
 
 .copyright {
-    	padding-bottom: 4vh;
+	font-size: 10pt;
+    	padding-bottom: 1vh;
 }
 
 }
