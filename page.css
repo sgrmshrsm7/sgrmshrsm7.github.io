@@ -275,8 +275,8 @@ li{
 #contacts img {
     	height: 8vw;
     	width: 8vw;
-    	margin-left: 0;
-    	margin-right: 0;
+    	margin-left: 1vw;
+    	margin-right: 1vw;
     	box-shadow: 1px 1px 2px #000000;
 }
 
