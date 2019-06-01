@@ -258,9 +258,9 @@ p {
 }
 
 ul{
-	padding-top: 3vmax;
+	padding-top: 0;
   	padding-right: 0;
-  	padding-bottom: 3vmax;
+  	padding-bottom: 0;
   	padding-left: 0;
 	margin-left: 10vw;
 	margin-right: 7vw;
