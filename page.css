@@ -272,8 +272,8 @@ li{
 	padding-bottom: 2vmax;
 	padding-left: 2vw;
 	padding-right: 2vw;
-	margin-top: 3vmax;
-	margin-bottom: 3vmax;
+	margin-top: 2.5vmax;
+	margin-bottom: 2.5vmax;
 	margin-left: 3vw;
 	margin-right: 3vw;
 }
@@ -287,7 +287,7 @@ li{
 }
 
 #contacts h1 span {
-	border: 2px dashed #20bcd5;
+	border: 3px dashed #20bcd5;
 	padding: 1vw;
 }
 	
