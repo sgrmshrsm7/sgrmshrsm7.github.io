@@ -208,7 +208,7 @@ body{
 }
 
 .section {
-	padding: 3vw;
+	padding: 2vw;
 	margin-bottom: 10px;
 	border-radius: 10px;
 	box-shadow: 2px 2px 4px #aeaeae;
@@ -258,18 +258,18 @@ li{
 .quote {
 	border-left: 1vw solid #A9A9A9;
     	font-size: 10pt;
-	padding-top: 2vh;
-	padding-bottom: 2vh;
+	padding-top: 2vmax;
+	padding-bottom: 2vmax;
 	padding-left: 2vw;
 	padding-right: 2vw;
-	margin-top: 5vw;
-	margin-bottom: 5vw;
+	margin-top: 3vmax;
+	margin-bottom: 3vmax;
 	margin-left: 3vw;
 	margin-right: 3vw;
 }
 
 .quoty {
-	padding-top: 2vh;
+	padding-top: 2vmax;
 }
 
 #contacts img {
