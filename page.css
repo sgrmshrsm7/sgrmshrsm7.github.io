@@ -287,6 +287,7 @@ li{
 }
 
 #contacts h1 span {
+	border: 2px dashed #20bcd5;
 	padding: 1vw;
 }
 	
