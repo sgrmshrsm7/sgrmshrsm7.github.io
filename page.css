@@ -226,11 +226,12 @@ body{
 }
 
 h1 {
-	font-size: 15pt;
+	font-size: 14pt;
 }
 
 h1 span {
-	padding: 9px;
+	border: 3px dashed #20bcd5;
+	padding: 1vw;
 }
 
 .quote {
@@ -270,15 +271,6 @@ li{
 	padding-top: 1vmax;
   	padding-bottom: 1vmax;
   	padding-left: 3vw;
-}
-
-#contacts h1 {
-	font-size: 14pt;
-}
-
-#contacts h1 span {
-	border: 3px dashed #20bcd5;
-	padding: 1vw;
 }
 	
 #contacts img {
