@@ -218,7 +218,7 @@ body{
 }
 
 .section {
-	padding: 2vw;
+	padding: 0;
 	margin-bottom: 10px;
 	border-radius: 10px;
 	box-shadow: 2px 2px 4px #aeaeae;
