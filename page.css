@@ -158,11 +158,17 @@ hr {
     	background-color: #1F2430;
 }
 
-#contacts h1 {
+#conatcts h1 {
 	font-size: 20pt;
+	color: #1F2430;
+	text-align: center;
+	padding: 18px 0 18px 0;
+	border-raius: 20px;
+	background-color: #20bcd5;
+	margin: 0;
 }
 
-#contacts h1 span {
+#conatcts h1 span {
 	padding: 8px;
 }
 
@@ -218,7 +224,7 @@ body{
 }
 
 .section {
-	padding: 0;
+	padding: 2vw;
 	margin-bottom: 10px;
 	border-radius: 10px;
 	box-shadow: 2px 2px 4px #aeaeae;
@@ -286,7 +292,6 @@ li{
 }
 
 #contacts h1 span {
-	border: 3px dashed #20bcd5;
 	padding: 1vw;
 }
 	
