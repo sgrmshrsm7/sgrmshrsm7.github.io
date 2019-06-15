@@ -65,7 +65,7 @@ body {
 	border: 4px dashed #20bcd5;
 	text-align: center;
 	padding: 10px;
-	margin: 0;
+	margin: auto;
 }
 
 .quote {
@@ -161,7 +161,7 @@ hr {
 	padding: 8px;
 	border-raius: 20px;
 	background-color: #20bcd5;
-	margin: 0;
+	margin: auto;
 }
 
 #contacts img {
