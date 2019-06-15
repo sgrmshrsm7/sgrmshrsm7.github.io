@@ -229,6 +229,10 @@ body{
 
 .content_h1 {
 	font-size: 14pt;
+	padding: 1vw;
+}
+
+.content_h1 span {
 	border: 3px dashed #20bcd5;
 	padding: 1vw;
 }
