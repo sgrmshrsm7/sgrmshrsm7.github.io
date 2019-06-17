@@ -63,12 +63,12 @@ body {
 	font-size: 25pt;
 	color: #20bcd5;
 	text-align: center;
-	padding: 10px;
 	margin: auto;
 }
 
 .content_h1 span {
 	border: 4px dashed #20bcd5;
+	padding: 10px;
 }
 
 .quote {
