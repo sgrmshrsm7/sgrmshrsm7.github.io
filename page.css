@@ -163,9 +163,13 @@ hr {
 	color: #1F2430;
 	text-align: center;
 	padding: 8px;
-	border-raius: 20px;
+	margin: 0;
+}
+
+.contacts_h1 span{
 	background-color: #20bcd5;
-	margin: auto;
+	border-radius: 20px;
+	padding: 8px;
 }
 
 #contacts img {
