@@ -160,14 +160,14 @@ hr {
 
 .conatcts_h1 {
 	font-size: 20pt;
-	color: #1F2430;
+	color: #fff;
 	text-align: center;
 	padding: 8px;
 	margin: 0;
 }
 
 .contacts_h1 span{
-	 background: rgb(131,58,180);
+	background: rgb(131,58,180);
 	background: -moz-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 	background: -webkit-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
