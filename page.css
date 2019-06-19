@@ -269,6 +269,32 @@ body{
 	border-radius: 10px;
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.2);
 }
+	
+.menu_section {
+	font-size: 11pt;
+	padding-top: 2vw;
+	padding-left: 5vw;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.2);
+}
+
+.menu_section a:link {
+	border-bottom: 1vmax solid #bebfbf;
+}
+
+.menu_section a:visited {
+	border-bottom: 1vmax solid #bebfbf;
+}
+
+.menu_section a:hover {
+	border-bottom: 7vmax solid #fa867e;
+}
+
+.menu_section span {
+	margin-left: 5vw;
+	margin-right: 5vw;
+	margin-bottom: 0;
+}
+
 
 .content_h1 {
 	font-size: 14pt;
