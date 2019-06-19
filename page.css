@@ -70,27 +70,26 @@ body {
 .menu_section a:link {
 	font-family: 'Patua One', cursive;
 	color: #5f646e;
-	border-bottom: 2px solid #bebfbf;
+	border-bottom: 4px solid #bebfbf;
 	text-decoration: none;
 }
 
 .menu_section a:visited {
 	font-family: 'Patua One', cursive;
 	color: #5f646e;
-	border-bottom: 2px solid #bebfbf;
+	border-bottom: 4px solid #bebfbf;
 	text-decoration: none;
 }
 
 .menu_section a:hover {
 	font-family: 'Patua One', cursive;
 	color: #353e3e;
-	font-weight: bold;
-	border-bottom: 2px solid #fa867e;
+	border-bottom: 5px solid #fa867e;
 	text-decoration: none;
 }
 
 .menu_section span {
-	
+	padding-left 80px;
 }
 
 .content_h1 {
