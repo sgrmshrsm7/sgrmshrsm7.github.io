@@ -60,12 +60,16 @@ body {
 }
 
 .menu_section {
-	background-color: #fff;
+	font-size: 30pt;
+	background-color: #000;
 	padding: 0px;
-	padding-left: 80px;
 	margin-bottom: 10px;
 	border-radius: 10px;
 	box-shadow: 2px 2px 4px #aeaeae;
+}
+
+.menu_section a {
+	padding- left: 80px;
 }
 
 .menu_section a:link {
