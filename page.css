@@ -73,21 +73,21 @@ body {
 .menu_section a:link {
 	font-family: 'Patua One', cursive;
 	color: #5f646e;
-	border-bottom: 6px solid #bebfbf;
+	border-bottom: 6.5px solid #bebfbf;
 	text-decoration: none;
 }
 
 .menu_section a:visited {
 	font-family: 'Patua One', cursive;
 	color: #5f646e;
-	border-bottom: 6px solid #bebfbf;
+	border-bottom: 6.5px solid #bebfbf;
 	text-decoration: none;
 }
 
 .menu_section a:hover {
 	font-family: 'Patua One', cursive;
 	color: #353e3e;
-	border-bottom: 6px solid #fa867e;
+	border-bottom: 7px solid #fa867e;
 	text-decoration: none;
 }
 
