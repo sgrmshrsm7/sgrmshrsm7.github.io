@@ -62,6 +62,7 @@ body {
 .menu_section {
 	background-color: #fff;
 	padding: 0px;
+	padding-left: 80px;
 	margin-bottom: 10px;
 	border-radius: 10px;
 	box-shadow: 2px 2px 4px #aeaeae;
@@ -89,7 +90,7 @@ body {
 }
 
 .menu_section span {
-	padding-left 80px;
+	
 }
 
 .content_h1 {
