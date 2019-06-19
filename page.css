@@ -67,20 +67,20 @@ body {
 	padding-left: 80px;
 	margin-bottom: 10px;
 	border-radius: 10px;
-	box-shadow: 2px 2px 4px #aeaeae;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
 }
 
 .menu_section a:link {
 	font-family: 'Patua One', cursive;
 	color: #5f646e;
-	border-bottom: 6.5px solid #bebfbf;
+	border-bottom: 7px solid #bebfbf;
 	text-decoration: none;
 }
 
 .menu_section a:visited {
 	font-family: 'Patua One', cursive;
 	color: #5f646e;
-	border-bottom: 6.5px solid #bebfbf;
+	border-bottom: 7px solid #bebfbf;
 	text-decoration: none;
 }
 
