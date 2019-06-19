@@ -69,10 +69,6 @@ body {
 	box-shadow: 2px 2px 4px #aeaeae;
 }
 
-.menu_section a {
-	padding- left: 80px;
-}
-
 .menu_section a:link {
 	font-family: 'Patua One', cursive;
 	color: #5f646e;
@@ -96,6 +92,7 @@ body {
 
 .menu_section span {
 	margin-left: 80px;
+	margin-right: 80px;
 	margin-bottom: 0;
 }
 
