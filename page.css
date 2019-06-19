@@ -271,22 +271,22 @@ body{
 }
 	
 .menu_section {
-	font-size: 11pt;
+	font-size: 14pt;
 	padding-top: 2vw;
 	padding-left: 5vw;
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.2);
 }
 
 .menu_section a:link {
-	border-bottom: 1vmax solid #bebfbf;
+	border-bottom: 1vmin solid #bebfbf;
 }
 
 .menu_section a:visited {
-	border-bottom: 1vmax solid #bebfbf;
+	border-bottom: 1vmin solid #bebfbf;
 }
 
 .menu_section a:hover {
-	border-bottom: 7vmax solid #fa867e;
+	border-bottom: 7vmin solid #fa867e;
 }
 
 .menu_section span {
@@ -335,8 +335,8 @@ ul{
   	padding-right: 0;
   	padding-bottom: 0;
   	padding-left: 0;
-margin-top: 1vamx;
-margin-bottom: 0;
+	margin-top: 1vamx;
+	margin-bottom: 0;
 	margin-left: 10vw;
 	margin-right: 7vw;
 }
