@@ -146,21 +146,21 @@ p {
 p a:link {
 	font-family: 'Kodchasan', sans-serif;
 	color: #5f646e;
-	border-bottom: 2px solid #bebfbf;
+	border-bottom: 4px solid #bebfbf;
 	text-decoration: none;
 }
 
 p a:visited {
 	font-family: 'Kodchasan', sans-serif;
 	color: #5f646e;
-	border-bottom: 2px solid #bebfbf;
+	border-bottom: 4px solid #bebfbf;
 	text-decoration: none;
 }
 
 p a:hover {
 	font-family: 'Kodchasan', sans-serif;
 	color: #353e3e;
-	border-bottom: 2px solid #48ecf1;
+	border-bottom: 4px solid #48ecf1;
 	text-decoration: none;
 }
 
@@ -330,6 +330,18 @@ p {
   	padding-left: 6vw;
 }
 
+p a:link {
+	border-bottom: 2px solid #bebfbf;
+}
+
+p a:visited {
+	border-bottom: 2px solid #bebfbf;
+}
+
+p a:hover {
+	border-bottom: 2px solid #48ecf1;
+}
+	
 ul{
 	padding-top: 0;
   	padding-right: 0;
