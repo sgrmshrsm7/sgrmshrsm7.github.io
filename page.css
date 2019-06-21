@@ -190,7 +190,8 @@ hr {
 }
 
 .myproject_h1 {
-	font-size: 20pt;
+	font-size: 200pt;
+	color: #ffffff;
 	text-align: center;
 	margin: 0;
 }
@@ -213,7 +214,6 @@ hr {
 }
 
 .conatcts_h1 {
-	font-size: 18pt;
 	text-align: center;
 	margin: 0;
 }
