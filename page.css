@@ -195,8 +195,8 @@ hr {
 	color: #ffffff;
 	text-align: center;
 	margin: 0;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .myproject_h1 span{
@@ -213,7 +213,7 @@ hr {
     	text-align: center;
     	background-color: #1F2430;
 	color: #ffffff;
-	font-size: 10pt;
+	font-size: 25pt;
 }
 
 .conatcts_h1 {
@@ -221,6 +221,8 @@ hr {
 	font-size: 25pt;
 	text-align: center;
 	margin: 0;
+	margin-top: 18px;
+	margin-bottom: 18px;
 }
 
 .contacts_h1 span{
