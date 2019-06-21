@@ -213,7 +213,6 @@ hr {
     	text-align: center;
     	background-color: #1F2430;
 	color: #ffffff;
-	font-size: 25pt;
 }
 
 .conatcts_h1 {
@@ -221,8 +220,8 @@ hr {
 	font-size: 25pt;
 	text-align: center;
 	margin: 0;
-	margin-top: 18px;
-	margin-bottom: 18px;
+	margin-top: 23px;
+	margin-bottom: 23px;
 }
 
 .contacts_h1 span{
