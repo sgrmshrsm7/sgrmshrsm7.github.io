@@ -220,8 +220,6 @@ hr {
 .conatcts_h1 {
 	text-align: center;
 	margin: 0;
-	margin-top: 200px;
-	margin-bottom: 23px;
 }
 
 .contacts_h1 span{
@@ -232,6 +230,8 @@ hr {
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4",endColorstr="#fcb045",GradientType=1); 
 	border-radius: 20px;
 	padding: 12px 12px 12px 12px;
+	margin-top: 200px;
+	margin-bottom: 23px;
 }
 
 #contacts img {
