@@ -215,8 +215,8 @@ hr {
 	color: #ffffff;
 	font-size: 25pt;
 	font-weight: bold;
-	padding-top: 200px;
-	padding-bottom: 200px;
+	padding-top: 25px;
+	padding-bottom: 0px;
 }
 
 .conatcts_h1 {
@@ -237,7 +237,7 @@ hr {
 #contacts img {
     	height: 50px;
     	width: 50px;
-	margin-top: 15px;
+	margin-top: 150px;
     	margin-left: 7px;
     	margin-right: 7px;
     	filter: drop-shadow(2px 2px 2px #222);
