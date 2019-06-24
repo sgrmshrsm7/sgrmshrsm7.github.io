@@ -382,17 +382,31 @@ li{
   	padding-left: 3vw;
 }
 	
+.myproject_h1 {
+	font-size: 17pt;
+	margin-top: 3vmax;
+	margin-bottom: 3vmax;
+}
+
+.myproject_h1 span{
+	padding: 2vw;
+}
+
+#contacts {
+	padding-top: 3vmax;
+}
+	
 #contacts img {
     	height: 8vw;
     	width: 8vw;
-	margin-top: 2vw;
+	margin-top: 5vw;
     	margin-left: 1vw;
     	margin-right: 1vw;
     	filter: drop-shadow(2px 2px 2px #222);
 }
 
 .contacts_h1 {
-	font-size: 14pt;
+	font-size: 15pt;
 	padding: 1vw;
 }
 	
