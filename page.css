@@ -153,7 +153,7 @@ p a:hover {
 	font-family: 'Kodchasan', sans-serif;
 	color: #1F2430;
 	text-shadow: 2px 2px rgba(0,0,0,0.5);
-	transition-delay: 1s;
+	transition-delay: 0.5s;
 	border-bottom: 3px solid #48ecf1;
 	text-decoration: none;
 }
