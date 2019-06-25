@@ -259,14 +259,14 @@ body{
 }
 
 #header p {
-	font-size: 15pt;
+	font-size: 6vw;
 	padding-top: 10px;
 	text-shadow: 2px 2px 4px #000000;
 }
 
 
 #header h2 {
-	font-size: 14pt;
+	font-size: 5vw;
 	padding-top: 5px;
 	text-shadow: 2px 2px 4px #000000;
 }
