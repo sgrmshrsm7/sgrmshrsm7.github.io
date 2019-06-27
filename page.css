@@ -4,6 +4,7 @@ html {
 	margin: 0;
 	padding: 0;
 	--backg: #efefef;
+	--backsec: #ffffff;
 }
 
 body {
@@ -61,7 +62,7 @@ body {
 }
 
 .section {
-	background-color: #fff;
+	background-color: var(--backsec);
 	padding: 15px;
 	margin-bottom: 10px;
 	border-radius: 10px;
@@ -298,6 +299,7 @@ input:checked + label:after {
 
 html[data-theme='dartheme'] {
 	--backg: #4d4e4f;
+	--backsec: #232323;
 }
 
 html.transition,
