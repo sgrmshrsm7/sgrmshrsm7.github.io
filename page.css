@@ -8,6 +8,9 @@ html {
 	--pfontcol: #5f646e;
 	--quotecol: #5f646e;
 	--quotebg: #D3D3D3;
+	--headcol1: rgb(255,229,59);
+	--headcol2: rgba(255,229,59,1);
+	--headcol3: rgba(255,37,37,1);
 }
 
 body {
@@ -19,11 +22,10 @@ body {
 }
 
 #header {
-	background: rgb(255,229,59);
-	background: -moz-linear-gradient(213deg, rgba(255,229,59,1) 0%, rgba(255,37,37,1) 74%);
-	background: -webkit-linear-gradient(213deg, rgba(255,229,59,1) 0%, rgba(255,37,37,1) 74%);
-	background: linear-gradient(213deg, rgba(255,229,59,1) 0%, rgba(255,37,37,1) 74%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffe53b",endColorstr="#ff2525",GradientType=1); 
+	background: var(--headcol1);
+	background: -moz-linear-gradient(213deg, var(--headcol2) 0%, var(--headcol3) 74%);
+	background: -webkit-linear-gradient(213deg, var(--headcol2) 0%, var(--headcol3) 74%);
+	background: linear-gradient(213deg, var(--headcol2) 0%, var(--headcol3) 74%);
 	background-size: cover;
 }
 
@@ -309,6 +311,9 @@ html[data-theme='dartheme'] {
 	--pfontcol: #e4e4e4;
 	--quotecol: #D3D3D3;
 	--quotebg: #5f646e;
+	--headcol1: rgb(43,44,214);
+	--headcol2: rgba(43,44,214,1);
+	--headcol3: rgba(21,28,78,1);
 }
 
 html.transition,
