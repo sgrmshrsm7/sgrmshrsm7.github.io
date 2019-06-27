@@ -5,6 +5,7 @@ html {
 	padding: 0;
 	--backg: #efefef;
 	--backsec: #ffffff;
+	--pfontcol: #5f646e;
 }
 
 body {
@@ -141,19 +142,19 @@ p {
 	padding: 0px 80px 20px 80px;
 	margin: 0;
 	line-height: 1.6;
-	color: #5f646e;
+	color: var(--pfontcol);
 }
 
 p a:link {
 	font-family: 'Kodchasan', sans-serif;
-	color: #5f646e;
+	color: var(--pfontcol);
 	border-bottom: 3px solid #bebfbf;
 	text-decoration: none;
 }
 
 p a:visited {
 	font-family: 'Kodchasan', sans-serif;
-	color: #5f646e;
+	color: var(--pfontcol);
 	border-bottom: 3px solid #bebfbf;
 	text-decoration: none;
 }
@@ -169,14 +170,16 @@ p a:hover {
 ul{
 	padding-left: 150px;
 	font-family: 'Kodchasan', sans-serif;
-	color: #5f646e;
+	color: var(--pfontcol);
 }
 
 li{
 	padding: 10px 40px;
 	margin: 0;
 }
-
+li a{
+	text-decoration: none;
+}
 .selected {
   background-color: #f36f48;
   font-weight: bold;
@@ -300,6 +303,7 @@ input:checked + label:after {
 html[data-theme='dartheme'] {
 	--backg: #4d4e4f;
 	--backsec: #232323;
+	--pfontcol: #e4e4e4;
 }
 
 html.transition,
