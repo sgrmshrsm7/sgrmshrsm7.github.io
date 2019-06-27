@@ -11,7 +11,11 @@ body {
 }
 
 #header {
-	background-image: url("Images/wall.jpg");
+	background: rgb(255,229,59);
+	background: -moz-linear-gradient(213deg, rgba(255,229,59,1) 0%, rgba(255,37,37,1) 74%);
+	background: -webkit-linear-gradient(213deg, rgba(255,229,59,1) 0%, rgba(255,37,37,1) 74%);
+	background: linear-gradient(213deg, rgba(255,229,59,1) 0%, rgba(255,37,37,1) 74%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffe53b",endColorstr="#ff2525",GradientType=1); 
 	background-size: cover;
 }
 
