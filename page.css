@@ -202,6 +202,49 @@ hr {
 	margin-bottom: 30px;
 }
 
+
+input[type=checkbox] {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+
+}
+
+label {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  position: relative;
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 55px;
+  height: 30px;
+  background: var(--btn);
+}
+
+label:after {
+  border-radius: 50%;
+  position: absolute;
+  content: '';
+  background: #fff;
+  width: 20px;
+  height: 20px;
+  top: 5px;
+  left: 4px;
+  transition: ease-in-out 200ms;
+}
+
+input:checked + label {
+  background: #ea4b3c;
+}
+
+input:checked + label:after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
+
 #contacts {
   text-align: center;
   background-color: #1F2430;
@@ -249,6 +292,17 @@ hr {
   color: grey;
 }
 
+html[data-theme='dartheme'] {
+	
+}
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  transition: ease-in-out 200ms !important;
+  transition-delay: 0 !important;
+}
 
 @media only screen and (max-width: 768px) {
 
