@@ -225,7 +225,7 @@ label {
   text-indent: -9999px;
   width: 55px;
   height: 30px;
-  background: var(--btn);
+  background: #2ab1ce;
 }
 
 label:after {
