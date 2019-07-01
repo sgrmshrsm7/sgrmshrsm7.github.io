@@ -136,6 +136,14 @@ body {
 	margin: 20px 60px;
 }
 
+.quote::before {
+	content: "\"";
+}
+
+.quote::after {
+	content: "\"";
+}
+
 .quoty {
 	text-align: right;
 	font-style: normal;
