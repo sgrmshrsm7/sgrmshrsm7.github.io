@@ -137,11 +137,11 @@ body {
 }
 
 .quotecontent::before {
-	content: "\"";
+	content: "\201C";
 }
 
 .quotecontent::after {
-	content: "\"";
+	content: "\201D";
 }
 
 .quoty {
