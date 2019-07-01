@@ -136,11 +136,11 @@ body {
 	margin: 20px 60px;
 }
 
-.quote::before {
+.quotecontent::before {
 	content: "\"";
 }
 
-.quote::after {
+.quotecontent::after {
 	content: "\"";
 }
 
