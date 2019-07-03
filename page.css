@@ -404,7 +404,7 @@ body{
 
 .content_h1 {
 	font-size: 14pt;
-	border: 3px dashed #20bcd5;
+	border: 3px dashed var(--contenth1col);
 	padding: 1vw;
 	width: 30vmin;
 }
