@@ -8,12 +8,11 @@ html {
 	--pfontcol: #5f646e;
 	--quotecol: #5f646e;
 	--quotebg: #D3D3D3;
-	--headcol: #ffb43b;
+	--headcol: #3b55ff;
 	--headcol1: rgb(255,37,37);
 	--headcol2: rgba(255,37,37,1);
 	--headcol3: rgb(255,196,59,1);
 	--pahovercol: #1F2430;/*rgba(255,229,59,1)*/
-	/*#ff2929*/
 }
 
 body {
