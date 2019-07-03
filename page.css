@@ -120,6 +120,7 @@ body {
 	font-size: 25pt;
 	color: var(--contenth1col);
 	text-align: center;
+	font-weight: bold;
 	border: 4px dashed var(--contenth1col);
 	padding: 10px;
 	margin: auto;
