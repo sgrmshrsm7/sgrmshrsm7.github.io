@@ -12,7 +12,9 @@ html {
 	--headcol1: rgb(255,37,37);
 	--headcol2: rgba(255,37,37,1);
 	--headcol3: rgb(255,196,59,1);
-	--pahovercol: #1F2430;/*rgba(255,229,59,1)*/
+	--pahovercol: #1F2430;
+	--contenth1col: #ff3b55;
+	/*rgba(255,229,59,1)*/
 }
 
 body {
@@ -116,9 +118,9 @@ body {
 */
 .content_h1 {
 	font-size: 25pt;
-	color: #20bcd5;
+	color: var(--contenth1col);
 	text-align: center;
-	border: 4px dashed #20bcd5;
+	border: 4px dashed var(--contenth1col);
 	padding: 10px;
 	margin: auto;
 	width: 180px;
@@ -326,6 +328,7 @@ html[data-theme='dartheme'] {
 	--headcol2: rgba(24,43,64,1);
 	--headcol3: rgba(4,129,255,1);
 	--pahovercol: #ffffff;
+	--contenth1col: #20bcd5;
 }
 
 html.transition,
