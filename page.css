@@ -141,12 +141,12 @@ body {
 
 .quotecontent::before {
 	content: "\201C";
-font-size: 25pt;
+font-weight: bold;
 }
 
 .quotecontent::after {
 	content: "\201D";
-font-size: 25pt;
+font-weight: bold;
 }
 
 .quoty {
