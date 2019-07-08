@@ -141,16 +141,19 @@ body {
 
 .quotecontent::before {
 	content: "\201C";
+font-size: 50pt;
 }
 
 .quotecontent::after {
 	content: "\201D";
+font-size: 50pt;
 }
 
 .quoty {
 	text-align: right;
 	font-style: normal;
 	padding-top: 10px;
+font-weight: bold;
 }
 
 p {
