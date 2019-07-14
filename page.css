@@ -486,7 +486,7 @@ li{
 }
 
 .flex-container {
-	display: flex;
+	display: inline;
 	justify-content: space-around;
 }
 	
