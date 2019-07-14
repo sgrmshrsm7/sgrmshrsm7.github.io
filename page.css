@@ -316,6 +316,7 @@ input:checked + label:after {
 .flex-container {
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .copyright {
