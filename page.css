@@ -485,6 +485,12 @@ li{
 	padding: 1vw;
 }
 
+.flex-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+	
 .copyright {
 	font-size: 8pt;
     	padding-bottom: 0.8vh;
