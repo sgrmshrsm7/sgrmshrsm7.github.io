@@ -291,6 +291,7 @@ input:checked + label:after {
 .conatcts_h1 {
 	text-align: center;
 	margin: 0;
+	margin-top: 20px;
 }
 
 .contacts_h1 span{
@@ -484,6 +485,7 @@ li{
 .contacts_h1 {
 	font-size: 15pt;
 	padding: 1vw;
+	margin-top: 0;
 }
 
 .flex-container {
