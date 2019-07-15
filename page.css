@@ -304,12 +304,10 @@ input:checked + label:after {
 }
 
 #contacts img {
-  height: 50px;
-  width: 50px;
-	margin-top: 30px;
-  margin-left: 7px;
-  margin-right: 7px;
-  filter: drop-shadow(2px 2px 2px #222);
+ 	height: 50px;
+ 	width: 50px;
+	margin: 40px 17px 10px 17px;
+	filter: drop-shadow(2px 2px 2px #222);
 }
 #contacts a {
   text-decoration: none;
@@ -479,9 +477,7 @@ li{
 #contacts img {
     	height: 8vw;
     	width: 8vw;
-	margin-top: 5vw;
-    	margin-left: 1vw;
-    	margin-right: 1vw;
+	margin: 5vw 1vw 0 1vw;
     	filter: drop-shadow(2px 2px 2px #222);
 }
 
