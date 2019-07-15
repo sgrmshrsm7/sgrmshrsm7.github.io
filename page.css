@@ -122,9 +122,8 @@ body {
 	font-weight: bold;
 	border: 4px dashed var(--contenth1col);
 	padding: 10px;
-	margin: auto;
 	width: 180px;
-	margin-top: 25px;
+	margin: 60px auto 40px auto;
 }
 
 .quote {
@@ -416,6 +415,7 @@ body{
 	border: 3px dashed var(--contenth1col);
 	padding: 1vw;
 	width: 30vmin;
+	margin: auto;
 }
 
 .quote {
