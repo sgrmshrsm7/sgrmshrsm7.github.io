@@ -195,10 +195,12 @@ li{
 	padding: 10px 40px;
 	margin: 0;
 }
+
 li a{
 	text-decoration: none;
 	color: var(--pfontcol);
 }
+
 .selected {
   background-color: #f36f48;
   font-weight: bold;
