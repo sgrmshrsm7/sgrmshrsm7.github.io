@@ -269,7 +269,11 @@ li a{
 
 .card .front {
   	color: #FC545E;
-  	background: #FFFFFF;
+  	background: rgb(255,255,255);
+	background: -moz-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(140,137,212,1) 100%);
+	background: -webkit-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(140,137,212,1) 100%);
+	background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(140,137,212,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#8c89d4",GradientType=1);
   	font-weight: 700;
   	font-size: 40pt;
 }
