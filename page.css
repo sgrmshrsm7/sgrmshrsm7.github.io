@@ -245,6 +245,11 @@ li a{
   transform: rotateY(180deg);
 }
 
+.card-wrapper:hover .card,
+.card-wrapper.flip-right:hover .card {
+  transform: rotateY(180deg);
+}
+
 hr {
   border: 0;
   height: 1px;
