@@ -212,6 +212,11 @@ li a{
 	justify-content: center;
 }
 
+.card-wrapper {
+  display: inline-block;
+  perspective: 1000px;
+}
+
 hr {
   border: 0;
   height: 1px;
