@@ -266,6 +266,13 @@ li a{
   border-radius: 10px;
 }
 
+.card .front {
+  color: #FC545E;
+  background: #FFFFFF;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
 hr {
   border: 0;
   height: 1px;
