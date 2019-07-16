@@ -280,6 +280,12 @@ li a{
   	background: #FC545E;
 }
 
+.card p {
+	font-size: 18pt;
+	text-align: left;
+	margin: 0;
+}
+
 hr {
 	border: 0;
   	height: 1px;
