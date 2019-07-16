@@ -250,6 +250,13 @@ li a{
   transform: rotateY(180deg);
 }
 
+.card-wrapper,
+.card {
+  width: 300px;
+  height: 130px;
+  margin: 10px;
+}
+
 hr {
   border: 0;
   height: 1px;
