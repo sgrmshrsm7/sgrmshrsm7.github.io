@@ -207,6 +207,11 @@ li a{
   color: white;
 }
 
+.card-box{
+	display: flex;
+	justify-content: center;
+}
+
 hr {
   border: 0;
   height: 1px;
