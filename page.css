@@ -213,76 +213,76 @@ li a{
 }
 
 .card-wrapper {
-  display: inline-block;
-  perspective: 1000px;
+  	display: inline-block;
+  	perspective: 1000px;
 }
 
 .card-wrapper .card {
-  position: relative;
-  cursor: pointer;
-  transition-duration: 0.6s;
-  transition-timing-function: ease-in-out;
-  transform-style: preserve-3d;
+  	position: relative;
+  	cursor: pointer;
+  	transition-duration: 0.6s;
+  	transition-timing-function: ease-in-out;
+  	transform-style: preserve-3d;
 }
 
 .card-wrapper .card .front,
 .card-wrapper .card .back {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  transform: rotateX(0deg);
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+  	backface-visibility: hidden;
+  	transform: rotateX(0deg);
 }
 
 .card-wrapper .card .front {
-  z-index: 2;
+  	z-index: 2;
 }
 
 .card-wrapper .card .back,
 .card-wrapper.flip-right .card .back {
-  transform: rotateY(180deg);
+  	transform: rotateY(180deg);
 }
 
 .card-wrapper:hover .card,
 .card-wrapper.flip-right:hover .card {
-  transform: rotateY(180deg);
+  	transform: rotateY(180deg);
 }
 
 .card-wrapper,
 .card {
-  width: 400px;
-  height: 130px;
-  margin: 0px;
+  	width: 400px;
+  	height: 130px;
+  	margin: 0px;
 }
 
 .card .front,
 .card .back {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #FC545E;
-  border-radius: 10px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	border: 1px solid #FC545E;
+  	border-radius: 10px;
 }
 
 .card .front {
-  color: #FC545E;
-  background: #FFFFFF;
-  font-weight: 700;
-  font-size: 3rem;
+  	color: #FC545E;
+  	background: #FFFFFF;
+  	font-weight: 700;
+  	font-size: 3rem;
 }
 
 .card .back {
-  font-size: 1.5rem;
-  color: #FFFFFF;
-  background: #FC545E;
+  	font-size: 1.5rem;
+  	color: #FFFFFF;
+  	background: #FC545E;
 }
 
 hr {
-  border: 0;
-  height: 1px;
-  background: #f36f48;
+	border: 0;
+  	height: 1px;
+  	background: #f36f48;
 }
 
 .myproject_h1 {
