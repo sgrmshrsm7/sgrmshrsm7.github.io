@@ -240,6 +240,11 @@ li a{
   z-index: 2;
 }
 
+.card-wrapper .card .back,
+.card-wrapper.flip-right .card .back {
+  transform: rotateY(180deg);
+}
+
 hr {
   border: 0;
   height: 1px;
