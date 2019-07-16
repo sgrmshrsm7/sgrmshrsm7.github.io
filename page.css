@@ -282,8 +282,8 @@ li a{
 
 .card p {
 	font-size: 18pt;
-	text-align: left;
 	margin: 0;
+	padding: 0;
 }
 
 hr {
