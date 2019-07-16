@@ -236,6 +236,10 @@ li a{
   transform: rotateX(0deg);
 }
 
+.card-wrapper .card .front {
+  z-index: 2;
+}
+
 hr {
   border: 0;
   height: 1px;
