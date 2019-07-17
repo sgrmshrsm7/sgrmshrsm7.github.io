@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Gudea|Handlee|Kodchasan|Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courgette|Gudea|Handlee|Kodchasan|Patua+One&display=swap');
 
 html {
 	margin: 0;
@@ -130,7 +130,7 @@ body {
 .quote {
 	background-color: var(--quotebg);
 	border-left: 5px solid #A9A9A9;
-	font-family: 'Kodchasan', sans-serif;
+	font-family: 'Courgette', cursive;
 	color: var(--quotecol);
 	font-style: italic;
   	font-size: 18pt;
@@ -150,6 +150,7 @@ body {
 }
 
 .quoty {
+	font-family: 'Kodchasan', sans-serif;
 	text-align: right;
 	font-style: normal;
 	padding-top: 10px;
