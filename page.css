@@ -543,6 +543,12 @@ li{
   	padding-left: 3vw;
 }
 
+.card-wrapper,
+.card {
+  	width: 70vmin;
+  	height: 26vmin;
+}
+	
 .myproject_h1 {
 	font-size: 17pt;
 	margin-top: 3vmax;
