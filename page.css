@@ -41,6 +41,7 @@ body {
 }
 
 #header p {
+	font-family: 'Kodchasan', sans-serif;
 	font-size: 40pt;
 	color: var(--headcol);
 	padding-top: 10px;
