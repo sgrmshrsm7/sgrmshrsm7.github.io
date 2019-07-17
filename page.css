@@ -289,6 +289,10 @@ li a{
 	padding: 0;
 }
 
+.card a {
+	text-decoration: none;
+}
+
 hr {
 	border: 0;
   	height: 1px;
