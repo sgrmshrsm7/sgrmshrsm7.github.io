@@ -553,6 +553,10 @@ li{
 	font-size: 25pt;
 }
 	
+.card p {
+	font-size: 14pt;
+}
+	
 .myproject_h1 {
 	font-size: 17pt;
 	margin-top: 3vmax;
