@@ -286,6 +286,7 @@ li a{
 .card a {
 	text-decoration: none;
 	color: inherit;
+	font-weight: bold;
 }
 
 hr {
