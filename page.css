@@ -549,6 +549,10 @@ li{
   	height: 30vmin;
 }
 	
+.card .front {
+	font-size: 20pt;
+}
+	
 .myproject_h1 {
 	font-size: 17pt;
 	margin-top: 3vmax;
