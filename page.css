@@ -132,7 +132,7 @@ body {
 	border-left: 5px solid #A9A9A9;
 	font-family: 'Courgette', cursive;
 	color: var(--quotecol);
-	font-style: italic;
+	font-style: normal;
   	font-size: 18pt;
   	text-align: left;
 	padding: 30px 40px;
