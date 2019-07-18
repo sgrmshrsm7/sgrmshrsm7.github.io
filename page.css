@@ -169,6 +169,7 @@ p a{
 	font-family: 'Gudea', sans-serif;
 	border-bottom: 3px solid #bebfbf;
 	text-decoration: none;
+	font-weight: bold;
 	color: var(--pfontcol);
 }
 
