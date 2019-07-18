@@ -394,10 +394,13 @@ input:checked + label:after {
  	width: 50px;
 	margin: 40px 17px 10px 17px;
 	filter: drop-shadow(2px 2px 2px #222);
+	transition: all 0.6s ease-in-out;
 }
+
 #contacts a {
   text-decoration: none;
 }
+
 #contacts img:hover {
   opacity: 0.8;
 }
