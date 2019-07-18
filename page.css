@@ -403,6 +403,7 @@ input:checked + label:after {
 
 #contacts img:hover {
   opacity: 0.8;
+	transform: scale(1.3);
 }
 
 .flex-container {
