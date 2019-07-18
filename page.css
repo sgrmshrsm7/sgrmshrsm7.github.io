@@ -235,12 +235,12 @@ li a{
 }
 
 .card-wrapper .card .back,
-.card-wrapper.flip-right .card .back {
+.card-wrapper.flip-card .card .back {
   	transform: rotateY(180deg);
 }
 
 .card-wrapper:hover .card,
-.card-wrapper.flip-right:hover .card {
+.card-wrapper.flip-card:hover .card {
   	transform: rotateY(180deg);
 }
 
