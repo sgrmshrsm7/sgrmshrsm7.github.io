@@ -34,6 +34,12 @@ body {
 	padding: 0;
 }
 
+.progress-container {
+	width: 100vw;
+	height: 5px;
+	background: #a5d7a7;
+}
+
 #header {
 	background: var(--headcol1);
 	background: -moz-linear-gradient(90deg, var(--headcol2) 0%, var(--headcol3) 50%, var(--headcol2) 100%);
