@@ -24,6 +24,16 @@ body {
 	margin: 0;
 }
 
+.progresshead {
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	width: 100vw;
+	background-color: #f1f1f1;
+	margin: 0 -10px;
+	padding: 0;
+}
+
 #header {
 	background: var(--headcol1);
 	background: -moz-linear-gradient(90deg, var(--headcol2) 0%, var(--headcol3) 50%, var(--headcol2) 100%);
