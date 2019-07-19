@@ -46,6 +46,7 @@ body {
 	height: 5px;
 	background: #4caf50;
 	width: 0%;
+	border-right: 1px solid #000000;
 }
 
 #header {
