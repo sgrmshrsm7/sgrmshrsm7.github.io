@@ -40,6 +40,12 @@ body {
 	background: #a5d7a7;
 }
 
+.progress-bar {
+	height: 5px;
+	background: #4caf50;
+	width: 0%;
+}
+
 #header {
 	background: var(--headcol1);
 	background: -moz-linear-gradient(90deg, var(--headcol2) 0%, var(--headcol3) 50%, var(--headcol2) 100%);
