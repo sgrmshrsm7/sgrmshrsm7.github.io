@@ -476,6 +476,10 @@ body{
 	height: 3px;
 }
 
+.progress-bar {
+	height: 3px;
+}
+
 #header img {
 	width: 40vw;
 	height: 40vw;
