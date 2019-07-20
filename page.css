@@ -472,6 +472,10 @@ body{
 	font-size: 11pt;
 }
 
+.progress-container {
+	height: 3px;
+}
+
 #header img {
 	width: 40vw;
 	height: 40vw;
