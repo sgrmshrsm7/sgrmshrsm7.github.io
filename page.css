@@ -302,9 +302,9 @@ li a{
 .card .front {
   	color: var(--cardcol);
   	background: var(--cardcol1);
-	background: -moz-radial-gradient(circle, var(--cardcol2) 0%, rgba(140,137,212,1) 100%);
-	background: -webkit-radial-gradient(circle, var(--cardcol2) 0%, rgba(140,137,212,1) 100%);
-	background: radial-gradient(circle, var(--cardcol2) 0%, rgba(140,137,212,1) 100%);
+	background: -moz-radial-gradient(circle, var(--cardcol2) 0%, var(--cardcol3) 100%);
+	background: -webkit-radial-gradient(circle, var(--cardcol2) 0%, var(--cardcol3) 100%);
+	background: radial-gradient(circle, var(--cardcol2) 0%, var(--cardcol3) 100%);
   	font-weight: 700;
   	font-size: 40pt;
 }
