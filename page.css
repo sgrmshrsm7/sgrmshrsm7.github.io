@@ -459,6 +459,7 @@ html[data-theme='dartheme'] {
 	--pahovercol: #ffffff;
 	--contenth1col: #20bcd5;
 	--progcol: #8dc6ff;
+	--progcol1: #0078ef;
 }
 
 html.transition,
