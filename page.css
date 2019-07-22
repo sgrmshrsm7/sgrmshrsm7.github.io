@@ -41,7 +41,7 @@ body {
 .progress-container {
 	width: 100vw;
 	height: 5px;
-	background: #a5d7a7;
+	background: var(--progcol);
 }
 
 .progress-bar {
