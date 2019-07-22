@@ -312,7 +312,7 @@ li a{
 .card .back {
   	font-size: 30pt;
   	color: var(--cardcol1);
-  	background: #FC545E;
+  	background: var(--cardcol4);
 }
 
 .card p {
