@@ -458,6 +458,7 @@ html[data-theme='dartheme'] {
 	--headcol3: rgba(4,129,255,1);
 	--pahovercol: #ffffff;
 	--contenth1col: #20bcd5;
+	--progcol: #8dc6ff;
 }
 
 html.transition,
