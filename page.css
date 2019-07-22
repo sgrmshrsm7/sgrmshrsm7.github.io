@@ -466,7 +466,7 @@ html[data-theme='dartheme'] {
 	--progcol1: #0078ef;
 	--cardcol: #05f29b;
 	--cardcol1: rgb(1,69,44);
-	--cardcol2: rgba(255,255,255,1);
+	--cardcol2: rgb(1,69,44,1);
 	--cardcol3: rgba(140,137,212,1);
 	--cardcol4: #FC545E;
 }
