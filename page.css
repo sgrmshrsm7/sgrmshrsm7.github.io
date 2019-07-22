@@ -46,7 +46,7 @@ body {
 
 .progress-bar {
 	height: 5px;
-	background: #4caf50;
+	background: var(--progcol1);
 	width: 0%;
 	border-right: 1px solid #000000;
 }
