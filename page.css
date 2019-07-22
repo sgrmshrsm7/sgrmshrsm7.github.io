@@ -18,6 +18,7 @@ html {
 	--progcol1: #4caf50;
 	--cardcol: #2d5fad;
 	--cardcol1: rgb(255,255,255);
+	--cardcol2: rgba(255,255,255,1);
 }
 
 body {
