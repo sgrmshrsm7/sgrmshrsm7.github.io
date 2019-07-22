@@ -300,7 +300,7 @@ li a{
 }
 
 .card .front {
-  	color: #2d5fad;
+  	color: var(--cardcol);
   	background: rgb(255,255,255);
 	background: -moz-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(140,137,212,1) 100%);
 	background: -webkit-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(140,137,212,1) 100%);
