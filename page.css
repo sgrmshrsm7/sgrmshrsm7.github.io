@@ -17,6 +17,7 @@ html {
 	--progcol: #a5d7a7;
 	--progcol1: #4caf50;
 	--cardcol: #2d5fad;
+	--cardcol1: rgb(255,255,255);
 }
 
 body {
