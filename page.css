@@ -21,6 +21,7 @@ html {
 	--cardcol2: rgba(255,255,255,1);
 	--cardcol3: rgba(140,137,212,1);
 	--cardcol4: #FC545E;
+	--cardcol5: #ffffff;
 }
 
 body {
@@ -311,7 +312,7 @@ li a{
 
 .card .back {
   	font-size: 30pt;
-  	color: var(--cardcol1);
+  	color: var(--cardcol5);
   	background: var(--cardcol4);
 }
 
