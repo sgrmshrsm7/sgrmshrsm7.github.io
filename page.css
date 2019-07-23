@@ -242,11 +242,11 @@ li a{
 
 .myProject {
 	background: repeating-linear-gradient(
-  45deg,
-  #606dbc,
-  #606dbc 10px,
-  #465298 10px,
-  #465298 20px
+  var(--myProjangle),
+  var(--myProjcol),
+  var(--myProjcol) var(--myProjwid),
+  var(--myProjcol1) var(--myProjwid1),
+  var(--myProjcol1) var(--myProjwid2)
 );
 	margin: 30px 90px;
 	padding-top: 30px;
