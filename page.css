@@ -224,22 +224,6 @@ p a:hover {
 	border-bottom: 3px solid #48ecf1;
 }
 
-ul{
-	padding-left: 150px;
-	font-family: 'Kodchasan', sans-serif;
-	color: var(--pfontcol);
-}
-
-li{
-	padding: 10px 40px;
-	margin: 0;
-}
-
-li a{
-	text-decoration: none;
-	color: var(--pfontcol);
-}
-
 .selected {
   background-color: #f36f48;
   font-weight: bold;
