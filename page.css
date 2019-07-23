@@ -495,6 +495,7 @@ html[data-theme='dartheme'] {
 	--myProjwid1: 1px;
 	--myProjwid2: 5px;
 	--myProjcol: rgba(59,255,59,0.3);
+	--myProjcol1: #002700;
 }
 
 html.transition,
