@@ -602,7 +602,14 @@ p a:hover {
 	padding-bottom: 3vmax;
 	border-radius: 10px;
 }
-
+	
+.myproject_h1 {
+	font-size: 17pt;
+	margin-top: 3vmax;
+	margin-bottom: 3vmax;
+	padding: 4vw;
+	width: 50vmin;
+}
 	
 .card-wrapper,
 .card {
@@ -616,14 +623,6 @@ p a:hover {
 	
 .card p {
 	font-size: 14pt;
-}
-	
-.myproject_h1 {
-	font-size: 17pt;
-	margin-top: 3vmax;
-	margin-bottom: 3vmax;
-	padding: 4vw;
-	width: 50vmin;
 }
 
 #contacts {
