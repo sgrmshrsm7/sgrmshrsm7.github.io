@@ -244,6 +244,24 @@ p a:hover {
 	border-radius: 10px;
 }
 
+.myproject_h1 {
+	font-size: 30pt;
+	font-weight: bold;
+	color: #ffffff;
+	background: rgb(183,33,255);
+	background: -moz-linear-gradient(90deg, rgba(183,33,255,1) 0%, rgba(33,212,253,1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(183,33,255,1) 0%, rgba(33,212,253,1) 100%);
+	background: linear-gradient(90deg, rgba(183,33,255,1) 0%, rgba(33,212,253,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b721ff",endColorstr="#21d4fd",GradientType=1);
+	text-align: center;
+	border-radius: 20px;
+	padding: 15px;
+	width: 250px;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
 .card-box{
 	display: flex;
 	justify-content: center;
@@ -337,25 +355,6 @@ hr {
   	height: 1px;
   	background: #f36f48;
 }
-
-.myproject_h1 {
-	font-size: 30pt;
-	font-weight: bold;
-	color: #ffffff;
-	background: rgb(183,33,255);
-	background: -moz-linear-gradient(90deg, rgba(183,33,255,1) 0%, rgba(33,212,253,1) 100%);
-	background: -webkit-linear-gradient(90deg, rgba(183,33,255,1) 0%, rgba(33,212,253,1) 100%);
-	background: linear-gradient(90deg, rgba(183,33,255,1) 0%, rgba(33,212,253,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b721ff",endColorstr="#21d4fd",GradientType=1);
-	text-align: center;
-	border-radius: 20px;
-	padding: 15px;
-	width: 250px;
-	margin: auto;
-	margin-top: 30px;
-	margin-bottom: 30px;
-}
-
 
 input[type=checkbox] {
   visibility: hidden;
