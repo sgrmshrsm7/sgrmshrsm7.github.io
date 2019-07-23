@@ -493,6 +493,7 @@ html[data-theme='dartheme'] {
 	--myProjangle: 180deg;
 	--myProjwid: 1px;
 	--myProjwid1: 1px;
+	--myProjwid2: 5px;
 }
 
 html.transition,
