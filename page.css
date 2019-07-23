@@ -490,6 +490,7 @@ html[data-theme='dartheme'] {
 	--cardcol2: rgb(1,69,44,1);
 	--cardcol3: rgb(3,165,106);
 	--cardcol4: #FC545E;
+	--myProjangle: 180deg;
 }
 
 html.transition,
