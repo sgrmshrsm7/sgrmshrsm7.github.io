@@ -596,20 +596,6 @@ p a:hover {
 	border-bottom: 2px solid #48ecf1;
 }
 
-ul{
-	padding: 0;
-	margin-top: 1vamx;
-	margin-bottom: 0;
-	margin-left: 10vw;
-	margin-right: 7vw;
-}
-
-li{
-	padding-top: 1vmax;
-  	padding-bottom: 1vmax;
-  	padding-left: 3vw;
-}
-
 .myProject {
 	margin: 30px 90px;
 	padding-top: 30px;
