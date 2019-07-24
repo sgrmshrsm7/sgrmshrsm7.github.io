@@ -636,6 +636,10 @@ p a:hover {
 	font-size: 25pt;
 }
 	
+.card .back {
+  	font-size: 20pt;
+}
+	
 .card p {
 	font-size: 14pt;
 }
