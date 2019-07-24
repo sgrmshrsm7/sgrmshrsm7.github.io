@@ -257,9 +257,9 @@ p a:hover {
 	font-weight: bold;
 	color: #ffffff;
 	background: var(--myProjcol3);
-	background: -moz-linear-gradient(90deg, var(--myProjcol4) 0%, rgba(33,212,253,1) 100%);
-	background: -webkit-linear-gradient(90deg, var(--myProjcol4) 0%, rgba(33,212,253,1) 100%);
-	background: linear-gradient(90deg, var(--myProjcol4) 0%, rgba(33,212,253,1) 100%);
+	background: -moz-linear-gradient(90deg, var(--myProjcol4) 0%, var(--myProjcol5) 100%);
+	background: -webkit-linear-gradient(90deg, var(--myProjcol4) 0%, var(--myProjcol5) 100%);
+	background: linear-gradient(90deg, var(--myProjcol4) 0%, var(--myProjcol5) 100%);
 	text-align: center;
 	border-radius: 20px;
 	padding: 15px;
