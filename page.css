@@ -229,9 +229,9 @@ p a:hover {
 }
 
 .selected {
-  background-color: #f36f48;
-  font-weight: bold;
-  color: white;
+	background-color: #f36f48;
+	font-weight: bold;
+	color: white;
 }
 
 .myProject {
