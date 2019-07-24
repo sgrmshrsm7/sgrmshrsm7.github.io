@@ -491,6 +491,7 @@ html[data-theme='dartheme'] {
 	--myProjcol1: #002700;
 	--myProjcol2: rgb(0,255,0,0.7);
 	--myProjcol3: rgba(0,166,81);
+	--myProjcol4: rgba(0,166,81,1);
 }
 
 html.transition,
