@@ -310,6 +310,8 @@ p a:hover {
 .card-wrapper:hover .card,
 .card-wrapper.flip-card:hover .card {
   	transform: rotateY(180deg);
+	border-radius: 10px;
+	box-shadow: 0 0 10px 1px var(--myProjcol2);
 }
 
 .card-wrapper,
