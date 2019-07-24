@@ -28,6 +28,7 @@ html {
 	--myProjwid2: 20px;
 	--myProjcol: #606dbc;
 	--myProjcol1: #465298;
+	--myProjcol2: rgba(0, 0, 0, 0);
 }
 
 body {
