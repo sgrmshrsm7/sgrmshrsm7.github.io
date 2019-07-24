@@ -244,6 +244,10 @@ p a:hover {
 	border-radius: 7px;
 }
 
+.myProject:hover {
+	box-shadow: 0 0 30px 1px var(--myProjcol2);
+}
+
 .myproject_h1 {
 	font-size: 30pt;
 	font-weight: bold;
