@@ -254,7 +254,7 @@ p a:hover {
 	font-size: 30pt;
 	font-weight: bold;
 	color: #ffffff;
-	background: rgb(183,33,255);
+	background: var(--myProjcol3);
 	background: -moz-linear-gradient(90deg, rgba(183,33,255,1) 0%, rgba(33,212,253,1) 100%);
 	background: -webkit-linear-gradient(90deg, rgba(183,33,255,1) 0%, rgba(33,212,253,1) 100%);
 	background: linear-gradient(90deg, rgba(183,33,255,1) 0%, rgba(33,212,253,1) 100%);
