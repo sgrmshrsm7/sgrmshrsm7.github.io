@@ -618,6 +618,10 @@ p a:hover {
 	border-radius: 10px;
 }
 	
+.myProject:hover {
+	box-shadow: 0 0 20px 1px var(--myProjcol2);
+}
+	
 .myproject_h1 {
 	font-size: 17pt;
 	margin-top: 3vmax;
