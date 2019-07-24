@@ -30,6 +30,7 @@ html {
 	--myProjcol1: #465298;
 	--myProjcol2: rgba(0, 0, 0, 0);
 	--myProjcol3: rgb(183,33,255);
+	--myProjcol4: rgba(183,33,255,1);
 }
 
 body {
