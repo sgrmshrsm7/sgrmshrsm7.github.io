@@ -246,6 +246,7 @@ p a:hover {
 
 .myProject:hover {
 	box-shadow: 0 0 30px 1px var(--myProjcol2);
+	transition-duration: 0.7s;
 }
 
 .myproject_h1 {
