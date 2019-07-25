@@ -2,4 +2,4 @@
 GithubPage
 
 
-Visit https://sgrmshrsm7.github.io to check out the page!!!
+Visit https://sgrmshrsm7.github.io to check out the page :bangbang:
