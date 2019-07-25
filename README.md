@@ -5,3 +5,6 @@ Contains 2 themes : light(default) & dark. So, don't miss to checkout both theme
 
 
 Visit https://sgrmshrsm7.github.io to check out the page :bangbang:
+
+
+Suggestions and bug fixes are welcomed :neckbeard:
