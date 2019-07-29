@@ -635,6 +635,12 @@ p a:hover {
 	padding: 4vw;
 	width: 50vmin;
 }
+
+html[data-theme='dartheme'] {
+	--myProjwid: 1px;
+	--myProjwid1: 1px;
+	--myProjwid2: 5px;
+}
 	
 .card-wrapper,
 .card {
