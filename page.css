@@ -506,7 +506,13 @@ html.transition *:after {
 
 @media only screen and (max-width: 768px) {
 
-body{
+html {
+	--myProjwid: 4px;
+	--myProjwid1: 4px;
+	--myProjwid2: 8px;
+}
+	
+body {
 	font-size: 11pt;
 }
 
