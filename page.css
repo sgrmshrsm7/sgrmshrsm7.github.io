@@ -514,6 +514,7 @@ html {
 	
 body {
 	font-size: 11pt;
+	padding: 6px;
 }
 
 .progress-container {
