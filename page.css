@@ -518,6 +518,10 @@ body {
 	padding-top: 10px;
 }
 
+.progresshead {
+	margin: 0 -6px;
+}
+	
 .progress-container {
 	height: 4px;
 }
