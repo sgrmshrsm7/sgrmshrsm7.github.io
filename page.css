@@ -414,6 +414,11 @@ hr {
 	border-radius: 34px;
   }
 
+input:checked + .slider {
+	background-color: #ea4b3c;
+	border-radius: 34px;
+  }
+
 #contacts {
   text-align: center;
   background-color: #1F2430;
