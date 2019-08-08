@@ -374,6 +374,14 @@ hr {
 	font-weight: bold;
 }
 
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 34px;
+	margin: 0 15px;
+  }
+
 #contacts {
   text-align: center;
   background-color: #1F2430;
