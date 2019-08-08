@@ -366,47 +366,7 @@ hr {
   	background: #f36f48;
 }
 
-input[type=checkbox] {
-  visibility: hidden;
-  height: 0;
-  width: 0;
 
-}
-
-label {
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 100px;
-  position: relative;
-  cursor: pointer;
-  text-indent: -9999px;
-  width: 55px;
-  height: 30px;
-  background: #2ab1ce;
-}
-
-label:after {
-  border-radius: 50%;
-  position: absolute;
-  content: '';
-  background: #fff;
-  width: 20px;
-  height: 20px;
-  top: 5px;
-  left: 4px;
-  transition: ease-in-out 200ms;
-}
-
-input:checked + label {
-  background: #ea4b3c;
-}
-
-input:checked + label:after {
-  left: calc(100% - 5px);
-  transform: translateX(-100%);
-}
 
 #contacts {
   text-align: center;
