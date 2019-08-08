@@ -382,6 +382,12 @@ hr {
 	margin: 0 15px;
   }
 
+  .switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+  }
+
 #contacts {
   text-align: center;
   background-color: #1F2430;
