@@ -423,6 +423,12 @@ input:checked + .slider {
 	box-shadow: 0 0 1px #2ab1ce;
   }
 
+input:checked + .slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+  }
+
 #contacts {
   text-align: center;
   background-color: #1F2430;
