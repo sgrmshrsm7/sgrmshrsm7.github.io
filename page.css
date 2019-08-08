@@ -366,7 +366,12 @@ hr {
   	background: #f36f48;
 }
 
-
+.switch-flex {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+}
 
 #contacts {
   text-align: center;
