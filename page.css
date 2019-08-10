@@ -526,6 +526,7 @@ html[data-theme='dartheme'] {
 	--myProjcol3: rgba(0,166,81);
 	--myProjcol4: rgba(0,166,81,1);
 	--myProjcol5: rgba(0,209,174,1);
+	--odark: 1;
 }
 
 html.transition,
