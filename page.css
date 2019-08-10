@@ -378,7 +378,7 @@ hr {
 }
 
 .dark {
-	
+	opacity: var(--odark);
 }
 
 .switch {
