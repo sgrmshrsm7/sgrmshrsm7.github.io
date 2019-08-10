@@ -381,6 +381,10 @@ hr {
 	opacity: var(--odark);
 }
 
+.light {
+	
+}
+
 .switch {
 	position: relative;
 	display: inline-block;
