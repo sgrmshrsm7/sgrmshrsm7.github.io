@@ -712,6 +712,10 @@ html[data-theme='dartheme'] {
 	margin: 0 8px;
 }
 	
+.slider {
+	border-radius: 17px;
+}
+	
 #contacts {
 	padding-top: 3vmax;
 }
