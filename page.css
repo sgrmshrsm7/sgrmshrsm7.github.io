@@ -382,7 +382,7 @@ hr {
 }
 
 .light {
-	
+	opacity: var(--olight);
 }
 
 .switch {
