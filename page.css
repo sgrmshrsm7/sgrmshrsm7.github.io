@@ -32,6 +32,7 @@ html {
 	--myProjcol3: rgb(183,33,255);
 	--myProjcol4: rgba(183,33,255,1);
 	--myProjcol5: rgba(33,212,253,1);
+	--odark: 0.3;
 }
 
 body {
