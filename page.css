@@ -375,6 +375,7 @@ hr {
 	flex-wrap: wrap;
 	color: var(--switchcol);
 	font-weight: bold;
+	font-size: 20pt;
 }
 
 .dark {
@@ -391,7 +392,6 @@ hr {
 	width: 60px;
 	height: 34px;
 	margin: 0 15px;
-	font-size: 20pt;
 }
 
   .switch input {
