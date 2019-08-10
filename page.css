@@ -528,6 +528,7 @@ html[data-theme='dartheme'] {
 	--myProjcol5: rgba(0,209,174,1);
 	--odark: 1;
 	--olight: 0.3;
+	--switchcol: #f36f48;
 }
 
 html.transition,
