@@ -702,6 +702,10 @@ html[data-theme='dartheme'] {
 	font-size: 14pt;
 }
 
+.switch-flex {
+	font-size: 12pt;
+}
+	
 #contacts {
 	padding-top: 3vmax;
 }
