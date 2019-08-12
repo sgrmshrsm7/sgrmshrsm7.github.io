@@ -282,7 +282,6 @@ p a:hover {
 .card-box a {
 	text-decoration: none;
 	color: inherit;
-	font-weight: bold;
 }
 
 .card-wrapper {
@@ -353,6 +352,7 @@ p a:hover {
 
 .card .back {
   	font-size: 30pt;
+	font-weight: bold;
   	color: var(--cardcol5);
   	background: var(--cardcol4);
 }
