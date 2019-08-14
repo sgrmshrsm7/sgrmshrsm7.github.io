@@ -724,7 +724,7 @@ html[data-theme='dartheme'] {
   }
 
 input:checked + .slider {
-	border-radius: 34px;
+	border-radius: 17px;
   }
 	
 #contacts {
