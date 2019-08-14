@@ -720,7 +720,7 @@ html[data-theme='dartheme'] {
 	width: 13px;
 	left: 2px;
 	bottom: 2px;
-	border-radius: 34px;
+	border-radius: 17px;
   }
 
 input:checked + .slider {
