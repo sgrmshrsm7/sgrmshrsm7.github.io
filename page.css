@@ -724,7 +724,6 @@ html[data-theme='dartheme'] {
   }
 
 input:checked + .slider {
-	background-color: #ea4b3c;
 	border-radius: 34px;
   }
 	
