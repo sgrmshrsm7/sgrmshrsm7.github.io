@@ -716,7 +716,7 @@ html[data-theme='dartheme'] {
 }
 
 .slider:before {
-	height: 13px;
+	height: 20px;
 	width: 13px;
 	left: 2px;
 	bottom: 2px;
