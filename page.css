@@ -724,7 +724,7 @@ html[data-theme='dartheme'] {
   }
 
 input:checked + .slider {
-	border-radius: 17px;
+	border-radius: 26px;
   }
 	
 input:checked + .slider:before {
