@@ -728,9 +728,9 @@ input:checked + .slider {
   }
 	
 input:checked + .slider:before {
-	-webkit-transform: translateX(0px);
-	-ms-transform: translateX(0px);
-	transform: translateX(0px);
+	-webkit-transform: translateX(13px);
+	-ms-transform: translateX(13px);
+	transform: translateX(13px);
   }
 	
 #contacts {
