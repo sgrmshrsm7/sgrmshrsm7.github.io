@@ -238,8 +238,7 @@ p a:hover {
 }
 
 .myProject {
-	background: repeating-linear-gradient(
-  var(--myProjangle),
+	background: repeating-linear-gradient(var(--myProjangle),
   var(--myProjcol),
   var(--myProjcol) var(--myProjwid),
   var(--myProjcol1) var(--myProjwid1),
