@@ -219,7 +219,7 @@ p {
 	color: var(--pfontcol);
 }
 
-p a{
+p a {
 	font-family: 'Gudea', sans-serif;
 	border-bottom: 3px solid #bebfbf;
 	text-decoration: none;
