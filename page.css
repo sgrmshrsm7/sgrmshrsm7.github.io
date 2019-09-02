@@ -424,7 +424,7 @@ hr {
 input:checked + .slider {
 	background-color: #ea4b3c;
 	border-radius: 34px;
-  }
+}
 
   input:focus + .slider {
 	box-shadow: 0 0 1px #2ab1ce;
