@@ -147,6 +147,12 @@ display: flex;
 	justify-content: space-around;
 	}
 
+nav ul li {
+	display:inline-block;
+	z-index: 2;
+	background-color: #0066cd;
+	}
+
 .content_h1 {
 	font-size: 25pt;
 	color: var(--contenth1col);
