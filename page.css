@@ -153,6 +153,17 @@ nav ul li {
 	background-color: #0066cd;
 	}
 
+nav a {
+	margin: 10px;
+	display:block;
+	padding:10px 50px;
+	color:#FFF;
+	font-size: 20pt;
+	line-height: 1.6;
+	text-decoration:none;
+
+}
+
 .content_h1 {
 	font-size: 25pt;
 	color: var(--contenth1col);
