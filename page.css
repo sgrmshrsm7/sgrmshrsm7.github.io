@@ -181,6 +181,10 @@ nav ul li:hover > ul {
 	display:inherit;
 }
 
+nav ul ul li {
+	width: 307px !important;
+}
+
 .content_h1 {
 	font-size: 25pt;
 	color: var(--contenth1col);
