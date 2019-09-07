@@ -177,6 +177,10 @@ nav ul ul {
 	box-shadow: 0 0 10px rgba(0,0,0,0.8);
 }
 
+nav ul li:hover > ul {
+	display:inherit;
+}
+
 .content_h1 {
 	font-size: 25pt;
 	color: var(--contenth1col);
