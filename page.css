@@ -187,6 +187,9 @@ nav ul ul li {
 	display: list-item;
 	position: relative;
 }
+nav ul ul li {
+	border: 1px solid white;
+}
 
 .content_h1 {
 	font-size: 25pt;
