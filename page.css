@@ -184,6 +184,7 @@ nav ul li:hover > ul {
 nav ul ul li {
 	width: 307px !important;
 	float: none;
+	display: list-item;
 }
 
 .content_h1 {
