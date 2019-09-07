@@ -189,6 +189,8 @@ nav ul ul li {
 	border: 1px solid white;
 }
 
+li > a:after { content:  ' ▼'; }
+
 .content_h1 {
 	font-size: 25pt;
 	color: var(--contenth1col);
