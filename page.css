@@ -190,6 +190,7 @@ nav ul ul li {
 }
 
 li > a:after { content:  ' ▼'; }
+li > a:only-child:after { content: ''; }
 
 .content_h1 {
 	font-size: 25pt;
