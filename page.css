@@ -165,6 +165,10 @@ align-items: center;
 	border-radius: 5px;
 }
 
+nav a:hover {
+	background-color: #333;
+}
+
 .content_h1 {
 	font-size: 25pt;
 	color: var(--contenth1col);
