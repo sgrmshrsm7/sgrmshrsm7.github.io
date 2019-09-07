@@ -169,6 +169,13 @@ nav a:hover {
 	background-color: #333;
 }
 
+nav ul ul {
+	display: none;
+	position: absolute;
+	top: 75px;
+	margin-left: 10px;
+}
+
 .content_h1 {
 	font-size: 25pt;
 	color: var(--contenth1col);
