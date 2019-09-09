@@ -145,7 +145,7 @@ nav ul {
 	position: relative;
 display: flex;
 	justify-content: space-around;
-	}
+}
 
 nav ul li {
 	display:inline-block;
