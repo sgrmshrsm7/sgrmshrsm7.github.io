@@ -179,7 +179,7 @@ nav ul ul {
 nav ul ul a {
 	font-size: 15pt;
 	margin: 7px;
-	padding:10px 50px;
+	padding:7px auto;
 }
 nav ul li:hover > ul {
 	display:inherit;
