@@ -617,6 +617,7 @@ nav ul {
 	list-style: none;
 	position: relative;
 display: flex;
+	flex-direction: column;
 	justify-content: space-around;
 }
 
