@@ -175,6 +175,7 @@ nav ul ul {
 	position: absolute;
 	top: 75px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.8);
+	margin-left: 10px;
 }
 
 nav ul ul a {
