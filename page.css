@@ -144,7 +144,7 @@ nav ul {
   margin: 0;
 	list-style: none;
 	position: relative;
-display: flex;
+	display: flex;
 	justify-content: space-around;
 }
 
