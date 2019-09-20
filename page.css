@@ -49,7 +49,7 @@ body {
 .progresshead {
 	position: fixed;
 	top: 0;
-	z-index: 3;
+	z-index: 4;
 	width: 100vw;
 	background-color: #f1f1f1;
 	margin: 0 -10px;
