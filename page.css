@@ -661,14 +661,6 @@ nav ul ul a {
 nav ul li:hover > ul {
 	display:none;
 }
-
-nav ul ul li {
-	width: 324px !important;
-	float: none;
-	display: list-item;
-	position: relative;
-	border: 1px solid white;
-}
 	
 #header h2 {
 	font-size: 5vw;
