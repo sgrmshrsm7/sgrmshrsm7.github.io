@@ -649,6 +649,10 @@ nav ul ul {
 	display: none;
 }
 	
+nav ul li:hover > ul {
+	display:inherit;
+}
+	
 #header h2 {
 	font-size: 5vw;
 	padding-top: 5px;
