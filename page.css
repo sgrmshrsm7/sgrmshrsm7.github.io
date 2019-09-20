@@ -152,6 +152,7 @@ nav ul {
 nav ul li {
 	display:inline-block;
 	background-color: #0066cd;
+	margin: 10px;
 }
 
 nav a {
