@@ -652,10 +652,6 @@ nav ul ul {
 	box-shadow: 0 0 10px rgba(0,0,0,0.8);
 	margin-left: 10px;
 }
-
-nav ul li:hover > ul {
-	display:none;
-}
 	
 #header h2 {
 	font-size: 5vw;
