@@ -647,10 +647,6 @@ nav a:hover {
 
 nav ul ul {
 	display: none;
-	position: absolute;
-	top: 80px;
-	box-shadow: 0 0 10px rgba(0,0,0,0.8);
-	margin-left: 10px;
 }
 	
 #header h2 {
