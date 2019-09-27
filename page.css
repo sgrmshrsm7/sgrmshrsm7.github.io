@@ -99,7 +99,6 @@ body {
 	text-shadow: 4px 4px 6px #000000;
 }
 
-
 #header h2 {
 	font-size: 30pt;
 	color: var(--headcol);
@@ -121,6 +120,75 @@ body {
 .img-circle:hover {
 	transform: scale(1.15);
 }
+
+nav {
+	margin: 10px 0px;
+	background-color: #0066cd;
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.8);
+	font-weight: bold;
+	z-index: 3;
+}
+
+nav ul {
+	padding: 0;
+  margin: 0;
+	list-style: none;
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+}
+
+nav ul li {
+	display:inline-block;
+	background-color: #0066cd;
+}
+
+nav a {
+	margin: 10px;
+	display:block;
+	padding:10px 50px;
+	color:#FFF;
+	font-size: 20pt;
+	line-height: 1.6;
+	text-decoration:none;
+	align-items: center;
+	border-radius: 5px;
+}
+
+nav a:hover {
+	background-color: #333;
+}
+
+nav ul ul {
+	display: none;
+	position: absolute;
+	top: 80px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.8);
+	margin-left: 10px;
+	z-index: 999999;
+}
+
+nav ul ul a {
+	font-size: 15pt;
+	margin: 7px;
+	padding:7px auto;
+}
+nav ul li:hover > ul {
+	display:inherit;
+}
+
+nav ul ul li {
+	width: 324px !important;
+	float: none;
+	display: list-item;
+	position: relative;
+	border: 1px solid white;
+}
+
+li > a:after { content:  ' ▼'; }
+li > a:only-child:after { content: ''; }
 
 .section {
 	background-color: var(--backsec);
