@@ -654,6 +654,9 @@ nav ul li:hover > ul {
 	display: none;
 }
 	
+li > a:after { content:  ' ▼'; }
+li > a:only-child:after { content: ''; }
+	
 #header h2 {
 	font-size: 5vw;
 	padding-top: 5px;
