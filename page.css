@@ -58,7 +58,7 @@ body {
 }
 
 .progress-container {
-	width: 0;
+	width: 100vw;
 	height: 5px;
 	background: var(--progcol);
 }
