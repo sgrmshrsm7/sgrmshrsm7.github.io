@@ -133,7 +133,7 @@ body {
 nav {
 	margin: 10px 0px;
 	background-color: #0066cd;
-	width: auto;
+	width: 100%;
 	border-radius: 10px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.8);
 	font-weight: bold;
