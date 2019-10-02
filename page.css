@@ -175,6 +175,7 @@ nav ul ul a {
 	margin: 7px;
 	padding:7px auto;
 }
+
 nav ul li:hover > ul {
 	display:inherit;
 }
