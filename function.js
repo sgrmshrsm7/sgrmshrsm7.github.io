@@ -8,7 +8,7 @@ var checkbox = document.querySelector('input[name=mode]');
                trans()
                document.documentElement.setAttribute('data-theme', 'lighttheme')
            }
-       })
+       });
 
        let trans = () => {
            document.documentElement.classList.add('transition');
