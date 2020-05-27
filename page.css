@@ -301,7 +301,7 @@ p a:hover {
 
 .card-box {
 	display: flex;
-	dlex-direction: column;
+	flex-direction: column;
 	justify-content: center;
 	margin: 30px 0;
 }
