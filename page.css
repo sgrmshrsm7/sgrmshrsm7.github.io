@@ -309,7 +309,7 @@ p a:hover {
 
 .card-box a {
 	text-decoration: none;
-	margin: 0;
+	margin: 20px auto;
 	padding: 0;
 }
 
