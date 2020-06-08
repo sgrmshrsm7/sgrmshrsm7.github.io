@@ -315,7 +315,6 @@ p a:hover {
 .card-wrapper {
   	display: inline-block;
   	perspective: 1000px;
-	margin: 20x auto;
 }
 
 .card-wrapper .card {
@@ -357,7 +356,7 @@ p a:hover {
 .card {
   	width: 500px;
   	height: 180px;
-  	margin: 0px;
+  	margin: 10px 0;
 }
 
 .card .front,
