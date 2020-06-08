@@ -309,13 +309,13 @@ p a:hover {
 
 .card-box a {
 	text-decoration: none;
-	margin: 20x auto;
 	padding: 0;
 }
 
 .card-wrapper {
   	display: inline-block;
   	perspective: 1000px;
+	margin: 20x auto;
 }
 
 .card-wrapper .card {
