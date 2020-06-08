@@ -385,6 +385,10 @@ p a:hover {
   	background: var(--cardcol4);
 }
 
+.cardhead {
+        margin-top: 15px;
+}
+
 .card p {
 	font-size: 18pt;
 	text-align: center;
