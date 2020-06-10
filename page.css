@@ -744,6 +744,10 @@ html[data-theme='dartheme'] {
 	--myProjwid1: 1px;
 	--myProjwid2: 5px;
 }
+
+.card-box {
+	margin: 3.5vw;
+}
 	
 .card-wrapper,
 .card {
