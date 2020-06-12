@@ -138,6 +138,7 @@ nav ul {
 	position: relative;
 	display: flex;
 	justify-content: space-around;
+	cursor: pointer;
 }
 
 nav ul li {
