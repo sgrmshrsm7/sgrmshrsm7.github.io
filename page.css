@@ -138,12 +138,12 @@ nav ul {
 	position: relative;
 	display: flex;
 	justify-content: space-around;
-	cursor: pointer;
 }
 
 nav ul li {
 	display:inline-block;
 	background-color: #0066cd;
+	cursor: pointer;
 }
 
 nav a {
