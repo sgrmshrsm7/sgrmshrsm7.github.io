@@ -757,7 +757,7 @@ html[data-theme='dartheme'] {
 }
 	
 .card .front {
-	font-size: 25pt;
+	font-size: 20pt;
 }
 	
 .card .back {
@@ -765,7 +765,7 @@ html[data-theme='dartheme'] {
 }
 	
 .card p {
-	font-size: 14pt;
+	font-size: 13pt;
 }
 
 .switch-flex {
