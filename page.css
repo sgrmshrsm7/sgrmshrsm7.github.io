@@ -753,7 +753,7 @@ html[data-theme='dartheme'] {
 .card-wrapper,
 .card {
   	width: 80vw;
-  	height: 35vmin;
+  	height: 50vw;
 }
 	
 .card .front {
