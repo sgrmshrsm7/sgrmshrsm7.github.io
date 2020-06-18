@@ -747,7 +747,7 @@ html[data-theme='dartheme'] {
 }
 
 .card-box {
-	margin: 15px;
+	justify-content: space-around;
 }
 	
 .card .front {
@@ -827,10 +827,6 @@ input:checked + .slider:before {
 
 
 @media only screen and (max-width: 540px) {
-.card-box {
-	margin: 3.5vw;
-}
-
 .card-wrapper, .card {
   	width: 80vw;
   	height: 43vw;
