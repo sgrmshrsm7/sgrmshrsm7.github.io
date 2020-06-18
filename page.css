@@ -747,7 +747,7 @@ html[data-theme='dartheme'] {
 }
 
 .card-box {
-	margin: 3.5vw;
+	margin: 15px;
 }
 	
 .card .front {
@@ -762,6 +762,10 @@ html[data-theme='dartheme'] {
 	font-size: 13pt;
 }
 
+.card-wrapper, .card {
+  	width: 250px;
+}
+	
 .switch-flex {
 	font-size: 15pt;
 }
@@ -823,6 +827,10 @@ input:checked + .slider:before {
 
 
 @media only screen and (max-width: 540px) {
+.card-box {
+	margin: 3.5vw;
+}
+
 .card-wrapper, .card {
   	width: 80vw;
   	height: 43vw;
