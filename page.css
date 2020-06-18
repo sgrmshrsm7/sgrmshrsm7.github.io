@@ -750,12 +750,6 @@ html[data-theme='dartheme'] {
 	margin: 3.5vw;
 }
 	
-.card-wrapper,
-.card {
-  	width: 80vw;
-  	
-}
-	
 .card .front {
 	font-size: 20pt;
 }
@@ -824,5 +818,13 @@ input:checked + .slider:before {
 	
 .copyright {
 	font-size: 8pt;
+}
+}
+
+
+@media only screen and (max-width: 540px) {
+.card-wrapper, .card {
+  	width: 80vw;
+  	height: 43vw;
 }
 }
