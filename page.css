@@ -186,6 +186,7 @@ nav ul ul li {
 	float: none;
 	display: list-item;
 	position: relative;
+	z-index: 999999;
 	border: 1px solid white;
 }
 
