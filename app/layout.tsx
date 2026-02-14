@@ -7,6 +7,14 @@ const handlee = Handlee({
   variable: "--font-handlee",
 });
 
+export const metadata = {
+  title: "Sagar Mishra",
+  description: "Sagar Mishra's portfolio",
+  icons: {
+    icon: "/favicon.ico",
+  },
+};
+
 export default function RootLayout({
   children,
 }: {
