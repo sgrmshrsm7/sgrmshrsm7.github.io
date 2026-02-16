@@ -71,6 +71,92 @@ export const ABOUT = {
   ],
 } as const;
 
+export const EXPERIENCE = [
+  {
+    title: "Senior Software Engineer - II",
+    company: "MakeMyTrip India Private Limited",
+    duration: "Jan 2026 - Present",
+    location: "Gurugram, India",
+    achievements: [
+      {
+        text: "Achieved 30% reduction in data over-fetching by developing and optimising GraphQL APIs with Apollo Server.",
+        highlights: ["30% reduction in data over-fetching"],
+      },
+      {
+        text: "Boosted initial page load speeds by 60% and enhanced SEO performance by migrating the React application to Next.js using SSR and SSG.",
+        highlights: [
+          "Boosted initial page load speeds by 60%",
+          "SEO performance",
+        ],
+      },
+    ],
+  },
+  {
+    title: "Senior Software Engineer",
+    company: "Bharti Airtel Limited",
+    duration: "Jun 2024 - Jan 2026",
+    location: "Gurugram, India",
+    achievements: [
+      {
+        text: "Minimized identity management and security audit overhead by 50% across all onboarded portals by integrating Keycloak for centralized authentication and access control.",
+        highlights: ["50%", "Keycloak"],
+      },
+      {
+        text: "Increased development efficiency by 2 times and reduced software development time by building internal tool Pagespace, a tool capable of generating pages (widgets, API calls, actions) by passing JSON.",
+        highlights: ["Increased development efficiency by 2 times"],
+      },
+      {
+        text: "Led the development of One Portal, a scalable B2B platform designed for modular onboarding of portals using a reusable template architecture, reducing the average time to launch a new client portal by 80%.",
+        highlights: ["scalable B2B platform", "modular onboarding", "80%"],
+      },
+      {
+        text: "Reduced 65% average ticket resolution time by spearheading the development of the portal for internal users.",
+        highlights: ["65% average ticket resolution time"],
+      },
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company: "Bharti Airtel Limited",
+    duration: "Jul 2022 - Jun 2024",
+    location: "Gurugram, India",
+    achievements: [
+      {
+        text: "Reduced the average page load latency by 75% by migrating the frontend architecture to webpack module federation micro-frontend architecture.",
+        highlights: [
+          "75%",
+          "webpack module federation micro-frontend architecture",
+        ],
+      },
+      {
+        text: "Decreased service escalations by 10% by launching a chat-based troubleshooting system that slashed the average resolution time from 4 hours to a few minutes resulting in 10% cost reduction of Service Requests.",
+        highlights: [
+          "10%",
+          "chat-based troubleshooting system",
+          "4 hours to a few minutes",
+          "10% cost reduction",
+        ],
+      },
+      {
+        text: "Achieved a 40% improvement in page performance by optimizing Core Web Vitals.",
+        highlights: ["40% improvement in page performance", "Core Web Vitals"],
+      },
+      {
+        text: "Attained a 99.9% uptime and reduced critical incidents by 90% by implementing robust error monitoring and real-time alerting (Sentry, Kibana).",
+        highlights: [
+          "99.9% uptime",
+          "critical incidents by 90%",
+          "Sentry, Kibana",
+        ],
+      },
+      {
+        text: "Resolved 50+ production bugs diagnosed through Sentry and Kibana logs.",
+        highlights: ["50+ production bugs", "Sentry", "Kibana"],
+      },
+    ],
+  },
+] as const;
+
 export const CONTACT_SECTION = {
   subtitle: "GET IN TOUCH",
   heading: "Let's connect and discuss opportunities.",

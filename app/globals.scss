@@ -121,8 +121,8 @@ textarea {
 button {
   background-color: $text-color;
   color: $white;
-  padding: $spacing-12;
-  border-radius: $border-radius-20;
+  padding: $spacing-12 $spacing-20;
+  border-radius: $border-radius-28;
   display: flex;
   justify-content: center;
   align-items: center;
