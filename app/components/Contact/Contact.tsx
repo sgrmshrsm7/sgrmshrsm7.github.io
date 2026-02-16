@@ -38,7 +38,13 @@ const Contact = () => {
     <section className="contact" id="contact">
       <h2>Get in Touch</h2>
       <div className="contact__inner">
-        <div className="contact__left">
+        <motion.div
+          className="contact__left"
+          initial={{ opacity: 0, x: -16 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.45, delay: 0.05 }}
+        >
           <h3 className="contact__heading">{CONTACT_SECTION.heading}</h3>
           <p className="contact__description">{CONTACT_SECTION.description}</p>
           <div className="contact__details">
@@ -80,7 +86,7 @@ const Contact = () => {
               );
             })}
           </div>
-        </div>
+        </motion.div>
 
         <motion.form
           className="contact__form"

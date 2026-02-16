@@ -13,7 +13,7 @@ const Hero = () => {
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.5, delay: 0 }}
           className="hero-title"
         >
           {HERO.name}
@@ -22,50 +22,50 @@ const Hero = () => {
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.1 }}
+          transition={{ duration: 0.45, delay: 0.1 }}
           className="hero-tag"
         >
           {HERO.tagline}
         </motion.h2>
+
         <motion.h3
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.1 }}
-          className="hero-tag"
+          transition={{ duration: 0.45, delay: 0.15 }}
+          className="hero-company"
         >
           {HERO.company}
         </motion.h3>
+
         <motion.h3
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.1 }}
-          className="hero-tag"
+          transition={{ duration: 0.45, delay: 0.18 }}
+          className="hero-location"
         >
           {HERO.location}
         </motion.h3>
 
         <motion.p
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
+          transition={{ duration: 0.45, delay: 0.22 }}
           className="hero-description"
         >
-          {HERO.description.split(HERO.descriptionHighlight)[0]}
-          <span className="text-blue-600 font-semibold">
-            {HERO.descriptionHighlight}
-          </span>
-          .
+          {HERO.description}
         </motion.p>
 
-        <SocialMedia />
-
-        <motion.section
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.5 }}
+        <motion.div
+          initial={{ opacity: 0, y: 8 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.45, delay: 0.3 }}
+          className="hero-quote"
         >
-          {HERO.quote}
-        </motion.section>
+          <p>{HERO.quote.line}</p>
+          <p className="hero-quote-author">— {HERO.quote.author}</p>
+        </motion.div>
+
+        <SocialMedia />
       </div>
     </header>
   );

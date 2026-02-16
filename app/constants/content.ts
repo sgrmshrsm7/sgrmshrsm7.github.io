@@ -38,7 +38,11 @@ export const CONTACT_INFO: readonly ContactInfo[] = [
     value: "+91 8808109747",
     href: "tel:+918808109747",
   },
-  { type: "location", value: "Gurugram, India", href: null },
+  {
+    type: "location",
+    value: "Gurugram, India",
+    href: "https://maps.app.goo.gl/Uoyr3cb2hfTuCv1RA",
+  },
 ] as const;
 
 export const CONTACT_SOCIAL_LINKS: readonly ContactSocialLink[] = [
@@ -69,21 +73,23 @@ export const SOCIAL_MEDIA_ICON_SIZE: number = 28;
 export const HERO: HeroSection = {
   name: "Sagar Mishra",
   tagline: "Senior Software Engineer II",
-  company: "MakeMyTrip Private Limited",
+  company: "MakeMyTrip Private India Limited",
   location: "Gurugram, India",
   description:
     "Building high-performance, scalable web architectures that deliver measurable impact.",
   descriptionHighlight: "measurable impact",
-  quote:
-    "\"Each of us lives, dependent and bound by our individual knowledge and our awareness. All that is what we call 'reality'. However, both knowledge and awareness are equivocal. One's reality might be another's illusion. We all live inside our own fantasies.\" — Itachi Uchiha.",
+  quote: {
+    line: "\"Each of us lives, dependent and bound by our individual knowledge and our awareness. All that is what we call 'reality'. However, both knowledge and awareness are equivocal. One's reality might be another's illusion. We all live inside our own fantasies.\"",
+    author: "Itachi Uchiha",
+  },
 } as const;
 
 export const ABOUT: AboutSection = {
   title: "About Me",
   paragraphs: [
-    "Senior Software Engineer with 4+ years of experience specializing in building high-performance, responsive, and scalable web architectures. Currently at MakeMyTrip, I've previously delivered impact at Bharti Airtel.",
-    "I've reduced page load latency by 75%, improved initial page speeds by 60%, and built systems serving millions of users. I'm passionate about performance optimization, mentoring junior developers, and crafting elegant solutions to complex problems.",
-    "When I'm not coding, you'll find me competing in programming contests or exploring new technologies. I hold a B.Tech in Computer Science from NIT Nagpur.",
+    "Senior Software Engineer with 4+ years of experience specializing in building high-performance, responsive, and scalable web architectures. Currently at MakeMyTrip, I've previously delivered significant impact at Bharti Airtel. I hold a B.Tech in Computer Science from VNIT Nagpur, where I developed a strong foundation in Computer Science and Engineering.",
+    "I've reduced page load latency by 75%, improved initial page speeds by 60%, and built systems serving millions of users. My technical toolkit spans C, C++, Python, Java, JavaScript, React, Node.js, and modern web technologies. I'm passionate about performance optimization, mentoring junior developers, and crafting elegant solutions to complex problems.",
+    "Beyond coding, I'm a dedicated sports enthusiast—you'll find me playing football, cricket, volleyball, or running whenever I can. I'm committed to staying fit and active. My username 'sgrmshrsm7' is inspired by Cristiano Ronaldo (CR7), my favorite football player. I enjoy gaming, listening to music for relaxation, and watching anime.",
   ],
 } as const;
 

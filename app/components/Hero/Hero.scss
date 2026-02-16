@@ -2,7 +2,7 @@
 
 .hero {
   width: 100%;
-  background-color: $background-color;
+  background-color: var(--panel);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -15,10 +15,35 @@
     justify-content: center;
     align-items: center;
     max-width: $spacing-1200;
-    h1,
-    h2,
-    h3 {
-      margin: 0;
+  }
+
+  .hero-title {
+    margin: $spacing-8;
+    font-size: $font-size-4xl;
+  }
+
+  .hero-tag {
+    margin: $spacing-4;
+  }
+
+  .hero-description {
+    font-size: $font-size-lg;
+    margin: $spacing-16 0;
+  }
+
+  .hero-quote {
+    width: 60%;
+    transition-duration: 0.5s;
+    margin: $spacing-16;
+    border: $border-width-2 dashed var(--border);
+    border-radius: $border-radius-8;
+    padding: $spacing-16 $spacing-24;
+    text-align: justify;
+    &:hover {
+      box-shadow: var(--shadow-lg);
+    }
+    .hero-quote-author {
+      text-align: right;
     }
   }
 }

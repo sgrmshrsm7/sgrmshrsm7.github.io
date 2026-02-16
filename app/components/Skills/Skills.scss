@@ -17,7 +17,7 @@
 
   .skills__description {
     font-size: $font-size-md;
-    color: $text-color;
+    color: var(--text);
     margin-bottom: $spacing-32;
     text-align: left;
     width: 100%;
@@ -40,7 +40,7 @@
   }
 
   .skills__category-card {
-    border: $border-width-1 dashed $text-color;
+    border: $border-width-1 dashed var(--border);
     border-radius: $border-radius-12;
     padding: $spacing-20;
     display: flex;
@@ -48,7 +48,7 @@
     gap: $spacing-16;
     transition-duration: 0.5s;
     &:hover {
-      box-shadow: $shadow-lg;
+      box-shadow: var(--shadow-lg);
     }
   }
   h3 {
@@ -63,11 +63,11 @@
 
   .skills__tag {
     // background: $background-grey;
-    border: $border-width-1 dashed $text-color;
+    border: $border-width-1 dashed var(--border);
     border-radius: $border-radius-50;
     padding: $spacing-6 $spacing-12;
     font-size: $font-size-sm;
-    color: $text-color;
+    color: var(--text);
     white-space: nowrap;
   }
 }

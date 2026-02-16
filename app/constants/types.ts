@@ -45,6 +45,12 @@ export interface SocialMediaLink {
   readonly href: string;
 }
 
+// quote: {lines: readonly string[]; author: string};
+export interface Quote {
+  readonly line: string;
+  readonly author: string;
+}
+
 // Hero Section
 export interface HeroSection {
   readonly name: string;
@@ -53,7 +59,7 @@ export interface HeroSection {
   readonly location: string;
   readonly description: string;
   readonly descriptionHighlight: string;
-  readonly quote: string;
+  readonly quote: Quote;
 }
 
 // About Section

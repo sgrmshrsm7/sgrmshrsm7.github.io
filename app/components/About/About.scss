@@ -1,0 +1,8 @@
+@use "../../styles/index" as *;
+
+.about {
+  p {
+    width: 90%;
+    margin: $spacing-6 auto;
+  }
+}

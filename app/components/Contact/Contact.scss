@@ -67,17 +67,17 @@ $contact-border: #334155;
           justify-content: center;
           width: 44px;
           height: 44px;
-          border: $border-width-1 solid $text-color;
+          border: $border-width-1 solid var(--border);
           border-radius: 8px;
-          background-color: $text-color;
+          background-color: var(--text);
           transition:
             background-color 0.2s,
             color 0.2s;
-          color: $white;
+          color: var(--white);
           &:hover {
-            background-color: $background-color;
+            background-color: var(--panel);
             color: $primary-color;
-            box-shadow: $shadow-lg;
+            box-shadow: var(--shadow-lg);
           }
         }
       }
@@ -89,7 +89,7 @@ $contact-border: #334155;
       align-items: flex-end;
       gap: $spacing-20;
       padding: $spacing-16 $spacing-32;
-      border-left: $border-width-2 dashed $text-color;
+      border-left: $border-width-2 dashed var(--border);
       .contact__field {
         display: flex;
         flex-direction: column;

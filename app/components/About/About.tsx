@@ -17,16 +17,7 @@ const About = () => {
     >
       <h2>{ABOUT.title}</h2>
       {ABOUT.paragraphs.map((paragraph, i) => (
-        <p
-          key={i}
-          className={
-            i === 0
-              ? "text-lg md:text-xl text-slate-700 leading-relaxed"
-              : "text-lg md:text-xl text-slate-700 leading-relaxed mt-4"
-          }
-        >
-          {paragraph}
-        </p>
+        <p key={i}>{paragraph}</p>
       ))}
     </motion.section>
   );

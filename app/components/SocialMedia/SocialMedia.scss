@@ -5,14 +5,14 @@
   gap: $spacing-20;
   position: absolute;
   bottom: $spacing-20;
-  border: $border-width-1 solid $black;
+  border: $border-width-1 solid var(--border);
   border-radius: $border-radius-50;
-  background-color: $background-color;
+  background-color: var(--panel);
   transition-duration: 0.5s;
   padding: $spacing-10 $spacing-24;
   padding-bottom: $spacing-4;
   &:hover {
-    box-shadow: $shadow-lg;
+    box-shadow: var(--shadow-lg);
   }
   .social-media-link {
     // color: $secondary-color;

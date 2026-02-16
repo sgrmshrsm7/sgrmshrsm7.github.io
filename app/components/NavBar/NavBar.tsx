@@ -1,5 +1,7 @@
 "use client";
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import { FiSun, FiMoon } from "react-icons/fi";
 import { NAV_LINKS } from "@/constants/content";
 import "./NavBar.scss";
 
@@ -17,6 +19,20 @@ const NavBar = () => {
       // window.history.pushState(null, "", href);
     }
   };
+
+  const [isDark, setIsDark] = useState(false);
+
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem("theme");
+      const dark = saved === "dark";
+      setIsDark(dark);
+      if (dark) document.documentElement.classList.add("dark");
+      else document.documentElement.classList.remove("dark");
+    } catch (e) {
+      // ignore
+    }
+  }, []);
 
   return (
     <nav className="navbar">
@@ -36,6 +52,24 @@ const NavBar = () => {
             {link.name}
           </a>
         ))}
+        <button
+          type="button"
+          aria-label="Toggle theme"
+          className="theme-toggle"
+          onClick={() => {
+            const next = !isDark;
+            setIsDark(next);
+            try {
+              if (next) document.documentElement.classList.add("dark");
+              else document.documentElement.classList.remove("dark");
+              localStorage.setItem("theme", next ? "dark" : "light");
+            } catch (e) {
+              /* ignore */
+            }
+          }}
+        >
+          {isDark ? <FiSun size={18} /> : <FiMoon size={18} />}
+        </button>
       </motion.div>
     </nav>
   );

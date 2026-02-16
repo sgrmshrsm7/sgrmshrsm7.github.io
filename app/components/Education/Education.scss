@@ -13,11 +13,11 @@
 
   .education__card {
     padding: $spacing-24;
-    border: $border-width-1 dashed $text-color;
+    border: $border-width-1 dashed var(--border);
     border-radius: $border-radius-12;
     transition-duration: 0.5s;
     &:hover {
-      box-shadow: $shadow-lg;
+      box-shadow: var(--shadow-lg);
     }
   }
 
@@ -30,7 +30,7 @@
   .education__institution {
     font-size: $font-size-lg;
     font-weight: $font-bold;
-    color: $text-color;
+    color: var(--text);
     text-align: left;
   }
 

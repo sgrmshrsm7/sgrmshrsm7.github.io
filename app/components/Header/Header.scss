@@ -3,18 +3,18 @@
 .header {
   position: sticky;
   top: 0;
-  background-color: $background-color;
+  background-color: var(--panel);
   width: 100%;
   .navbar {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: $shadow-sm;
+    box-shadow: var(--shadow-sm);
     .logo {
       font-size: $font-size-2xl;
       font-weight: $font-bold;
-      color: $text-color;
+      color: var(--text);
       text-decoration: none;
       padding: $spacing-8 $spacing-20;
       span {

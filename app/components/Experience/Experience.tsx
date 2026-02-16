@@ -75,7 +75,7 @@ const Experience = () => {
       <div className="experience__timeline">
         {EXPERIENCE.map((entry, idx) => (
           <motion.article
-            key={entry.company}
+            key={entry.company + entry.title}
             className="experience__entry"
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
