@@ -1,0 +1,25 @@
+@use "../../styles/index" as *;
+
+.header {
+  position: sticky;
+  top: 0;
+  background-color: $background-color;
+  width: 100%;
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: $shadow-sm;
+    .logo {
+      font-size: $font-size-2xl;
+      font-weight: $font-bold;
+      color: $text-color;
+      text-decoration: none;
+      padding: $spacing-8 $spacing-20;
+      span {
+        color: $primary-color;
+      }
+    }
+  }
+}

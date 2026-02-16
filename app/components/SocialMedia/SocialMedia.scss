@@ -1,0 +1,24 @@
+@use "../../styles/index" as *;
+
+.social-media {
+  display: flex;
+  gap: $spacing-20;
+  position: absolute;
+  bottom: $spacing-20;
+  border: $border-width-1 solid $black;
+  border-radius: $border-radius-50;
+  background-color: $background-color;
+  transition-duration: 0.5s;
+  padding: $spacing-10 $spacing-24;
+  padding-bottom: $spacing-4;
+  &:hover {
+    box-shadow: $shadow-lg;
+  }
+  .social-media-link {
+    // color: $secondary-color;
+    &:hover {
+      color: $primary-color;
+      transition-duration: 0.5s;
+    }
+  }
+}

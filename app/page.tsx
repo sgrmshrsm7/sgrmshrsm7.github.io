@@ -1,17 +1,18 @@
-import Image from "next/image";
+import About from "@/components/About/About";
+import Footer from "@/components/Footer/Footer";
+import Hero from "@/components/Hero/Hero";
+import Contact from "@/components/Contact/Contact";
+import NavBar from "./components/NavBar/NavBar";
 
 export default function Home() {
   return (
-    <main
-      style={{
-        minHeight: "100vh",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        fontSize: "2rem",
-      }}
-    >
-      Sagar Mishra
+    <main className="min-h-screen bg-white">
+      {/* <Header /> */}
+      <NavBar />
+      <Hero />
+      <About />
+      <Contact />
+      {/* <Footer /> */}
     </main>
   );
 }

@@ -1,0 +1,24 @@
+@use "../../styles/index" as *;
+
+.navbar {
+  position: fixed;
+  top: $spacing-20;
+  z-index: 9;
+
+  .nav-links {
+    display: flex;
+    gap: $spacing-32;
+    padding: $spacing-16 $spacing-32;
+    border: $border-width-1 solid $black;
+    border-radius: $border-radius-50;
+    background-color: $background-color;
+    transition-duration: 0.5s;
+    &:hover {
+      box-shadow: $shadow-lg;
+    }
+    .nav-link {
+      font-size: $font-size-lg;
+      font-weight: $font-bold;
+    }
+  }
+}

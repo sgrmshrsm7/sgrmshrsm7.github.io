@@ -1,0 +1,101 @@
+@use "../../styles/index" as *;
+
+$contact-bg: #0f172a;
+$contact-bg-input: #1e293b;
+$contact-accent: #38bdf8;
+$contact-btn: #2563eb;
+$contact-border: #334155;
+
+.contact {
+  .contact__inner {
+    max-width: $spacing-1200;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: $spacing-64;
+    align-items: start;
+    padding-top: $spacing-10;
+
+    .contact__left {
+      display: flex;
+      flex-direction: column;
+      gap: $spacing-20;
+      padding: $spacing-16 $spacing-32;
+      .contact__heading {
+        text-align: left;
+      }
+
+      .contact__description {
+        font-size: 1rem;
+        line-height: 1.6;
+        margin: 0;
+      }
+
+      .contact__details {
+        display: flex;
+        flex-direction: column;
+        gap: $spacing-16;
+      }
+
+      .contact__detail-row {
+        display: flex;
+        align-items: center;
+        gap: $spacing-12;
+        // color: $white;
+
+        .contact__detail-link {
+          display: flex;
+          align-items: center;
+          gap: $spacing-12;
+          text-decoration: none;
+          transition: color 0.2s;
+        }
+      }
+
+      .contact__detail-icon {
+        flex-shrink: 0;
+        // color: $white;
+      }
+
+      .contact__social {
+        display: flex;
+        gap: $spacing-16;
+        margin-top: $spacing-8;
+        .contact__social-link {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 44px;
+          height: 44px;
+          border: $border-width-1 solid $text-color;
+          border-radius: 8px;
+          background-color: $text-color;
+          transition:
+            background-color 0.2s,
+            color 0.2s;
+          color: $white;
+          &:hover {
+            background-color: $background-color;
+            color: $primary-color;
+            box-shadow: $shadow-lg;
+          }
+        }
+      }
+    }
+
+    .contact__form {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: $spacing-20;
+      padding: $spacing-16 $spacing-32;
+      border-left: $border-width-2 dashed $text-color;
+      .contact__field {
+        display: flex;
+        flex-direction: column;
+        gap: $spacing-8;
+        width: 100%;
+      }
+    }
+  }
+}

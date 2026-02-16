@@ -1,0 +1,140 @@
+// @use "sass:color";
+@use "./styles/index" as *;
+
+/* Fonts are provided via next/font/google (only Handlee). */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Keep scroll targets (navbar links) visible below the fixed navbar */
+#about,
+#skills,
+#experience,
+#projects,
+#achievements,
+#contact {
+  scroll-margin-top: $spacing-128;
+}
+
+:root {
+  --font-stack:
+    var(--font-handlee), system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(
+    --font-handlee,
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    sans-serif
+  );
+}
+html,
+body,
+#__next {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: $background-color;
+  color: $text-color;
+  font-size: $font-size-md;
+  font-weight: $font-regular;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100vh;
+  a {
+    color: $text-color;
+    text-decoration: none;
+    transition: color 0.3s;
+    &:hover {
+      color: $primary-color;
+    }
+  }
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+    margin: 0;
+  }
+  section {
+    max-width: $spacing-1200;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: $spacing-16;
+    margin-top: $spacing-100;
+    border: $border-width-2 dashed $text-color;
+    border-radius: $border-radius-8;
+    padding: $spacing-8 $spacing-16;
+    text-align: justify;
+    h2 {
+      width: fit-content;
+      border-bottom: $border-width-2 dashed $text-color;
+      margin: $spacing-10 auto;
+      line-height: 1;
+    }
+    p {
+      width: 100%;
+    }
+  }
+}
+
+label {
+  font-size: 0.875rem;
+  font-weight: $font-medium;
+}
+
+input,
+textarea {
+  padding: $spacing-8 $spacing-12;
+  border: 1px solid $text-color;
+  border-radius: $border-radius-8;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.2s;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+button {
+  background-color: $text-color;
+  color: $white;
+  padding: $spacing-12;
+  border-radius: $border-radius-20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  gap: 10px;
+  border: $border-width-1 solid $black;
+  font-weight: bold;
+  font-size: $font-size-md;
+  width: fit-content;
+  &:hover {
+    background-color: $background-color;
+    color: $primary-color;
+    box-shadow: $shadow-lg;
+  }
+}

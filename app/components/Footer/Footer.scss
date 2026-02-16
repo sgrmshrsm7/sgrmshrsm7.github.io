@@ -1,0 +1,12 @@
+@use "../../styles/index" as *;
+
+.footer {
+  width: 100%;
+  .footer-content {
+    // width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: $spacing-20;
+  }
+}
