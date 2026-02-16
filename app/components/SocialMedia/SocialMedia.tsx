@@ -2,7 +2,10 @@ import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaInstagram, FaTelegram } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
 import { FiMail } from "react-icons/fi";
-import { SOCIAL_MEDIA_LINKS, SOCIAL_MEDIA_ICON_SIZE } from "@/constants/content";
+import {
+  SOCIAL_MEDIA_LINKS,
+  SOCIAL_MEDIA_ICON_SIZE,
+} from "@/constants/content";
 import "./SocialMedia.scss";
 
 const SOCIAL_ICONS = {

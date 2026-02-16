@@ -40,7 +40,6 @@
   }
 
   .skills__category-card {
-    // background: $white;
     border: $border-width-1 dashed $text-color;
     border-radius: $border-radius-12;
     padding: $spacing-20;
@@ -49,7 +48,6 @@
     gap: $spacing-16;
     transition-duration: 0.5s;
     &:hover {
-      // border: $border-width-1 solid $text-color;
       box-shadow: $shadow-lg;
     }
   }

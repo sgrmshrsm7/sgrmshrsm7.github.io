@@ -27,7 +27,8 @@ const Header = () => {
         className="navbar"
       >
         <Link href={SITE.baseUrl} className="logo">
-          {SITE.logoText}<span>{SITE.logoHighlight}</span>
+          {SITE.logoText}
+          <span>{SITE.logoHighlight}</span>
         </Link>
 
         <div className="nav-links">

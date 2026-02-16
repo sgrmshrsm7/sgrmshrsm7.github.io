@@ -90,6 +90,10 @@
     color: $text-color;
     line-height: 1.5;
     width: $spacing-400;
+    transition-duration: 0.5s;
+    &:hover {
+      box-shadow: $shadow-lg;
+    }
   }
 
   .experience__achievement-highlight {

@@ -19,11 +19,11 @@ const highlightText = (text: string, highlights: readonly string[]) => {
 
   // Sort highlights by length (longest first) to avoid partial matches
   const sortedHighlights = [...highlights].sort((a, b) => b.length - a.length);
-  
+
   // Create a regex pattern that matches any of the highlight phrases
   const pattern = new RegExp(
     `(${sortedHighlights.map((h) => h.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")})`,
-    "gi"
+    "gi",
   );
 
   const parts: (string | React.ReactElement)[] = [];
@@ -41,9 +41,12 @@ const highlightText = (text: string, highlights: readonly string[]) => {
 
     // Add the highlighted match
     parts.push(
-      <strong key={`highlight-${match.index}`} className="experience__achievement-highlight">
+      <strong
+        key={`highlight-${match.index}`}
+        className="experience__achievement-highlight"
+      >
         {match[0]}
-      </strong>
+      </strong>,
     );
 
     lastIndex = pattern.lastIndex;

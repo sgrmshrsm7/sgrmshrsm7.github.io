@@ -1,0 +1,53 @@
+@use "../../styles/index" as *;
+
+.education {
+  width: 100%;
+  padding-bottom: $spacing-32;
+
+  .education__cards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(280px, 1fr));
+    gap: $spacing-24;
+    margin-top: $spacing-24;
+  }
+
+  .education__card {
+    padding: $spacing-24;
+    border: $border-width-1 dashed $text-color;
+    border-radius: $border-radius-12;
+    transition-duration: 0.5s;
+    &:hover {
+      box-shadow: $shadow-lg;
+    }
+  }
+
+  .education__content {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-8;
+  }
+
+  .education__institution {
+    font-size: $font-size-lg;
+    font-weight: $font-bold;
+    color: $text-color;
+    text-align: left;
+  }
+
+  .education__meta-item {
+    display: flex;
+    align-items: center;
+    gap: $spacing-6;
+
+    svg {
+      flex-shrink: 0;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .education__cards {
+      grid-template-columns: 1fr;
+      gap: $spacing-16;
+    }
+  }
+}
