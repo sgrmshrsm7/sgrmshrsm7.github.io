@@ -3,6 +3,7 @@ import Footer from "@/components/Footer/Footer";
 import Hero from "@/components/Hero/Hero";
 import Contact from "@/components/Contact/Contact";
 import Experience from "@/components/Experience/Experience";
+import Skills from "@/components/Skills/Skills";
 import NavBar from "./components/NavBar/NavBar";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <NavBar />
       <Hero />
       <About />
+      <Skills />
       <Experience />
       <Contact />
       {/* <Footer /> */}

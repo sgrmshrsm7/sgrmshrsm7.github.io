@@ -71,6 +71,51 @@ export const ABOUT = {
   ],
 } as const;
 
+export const SKILLS = {
+  title: "Technical Skills",
+  description:
+    "A comprehensive toolkit built over 4+ years of building scalable web applications.",
+  categories: [
+    {
+      title: "Frontend",
+      skills: [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Redux",
+        "Recoil",
+        "CSS/SCSS",
+        "Tailwind",
+      ],
+    },
+    {
+      title: "Backend",
+      skills: [
+        "Node.js",
+        "Express.js",
+        "GraphQL",
+        "REST APIs",
+        "MongoDB",
+        "MySQL",
+      ],
+    },
+    {
+      title: "Tools & DevOps",
+      skills: ["Git", "Docker", "AWS", "GCP", "Sentry", "Kibana", "Keycloak"],
+    },
+    {
+      title: "Architecture",
+      skills: [
+        "Module Federation",
+        "Micro-frontends",
+        "SSR/SSG",
+        "Performance Optimization",
+        "System Design",
+      ],
+    },
+  ],
+} as const;
+
 export const EXPERIENCE = [
   {
     title: "Senior Software Engineer - II",
