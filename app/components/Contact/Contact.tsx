@@ -1,5 +1,6 @@
 "use client";
 
+import type React from "react";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { FiMail, FiPhone, FiMapPin, FiSend } from "react-icons/fi";
@@ -26,12 +27,29 @@ const CONTACT_SOCIAL_ICONS = {
 
 const Contact = () => {
   const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // Add your form submission logic here
+
+    const trimmedName = name.trim();
+    const trimmedMessage = message.trim();
+
+    if (!trimmedName || !trimmedMessage) {
+      return;
+    }
+
+    const subject = `New message from ${trimmedName}`;
+    const body = `Name: ${trimmedName}\n\nMessage:\n${trimmedMessage}`;
+
+    const mailtoLink = `mailto:sgrmshrsm7@gmail.com?subject=${encodeURIComponent(
+      subject,
+    )}&body=${encodeURIComponent(body)}`;
+
+    window.open(mailtoLink, "_blank");
+
+    setName("");
+    setMessage("");
   };
 
   return (
@@ -106,19 +124,6 @@ const Contact = () => {
               placeholder={CONTACT_SECTION.form.namePlaceholder}
               value={name}
               onChange={(e) => setName(e.target.value)}
-              required
-            />
-          </div>
-          <div className="contact__field">
-            <label htmlFor="contact-email">
-              {CONTACT_SECTION.form.emailLabel}
-            </label>
-            <input
-              id="contact-email"
-              type="email"
-              placeholder={CONTACT_SECTION.form.emailPlaceholder}
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
               required
             />
           </div>

@@ -248,9 +248,9 @@ export const EDUCATION: readonly Education[] = [
 
 export const CONTACT_SECTION: ContactSection = {
   subtitle: "GET IN TOUCH",
-  heading: "Let's connect and discuss opportunities.",
+  heading: "Let's connect and discuss.",
   description:
-    "I'm always open to discussing new opportunities, freelance projects, or just having a chat about technology.",
+    "I'm always open to discussing new opportunities, or just having a chat about technology.",
   form: {
     nameLabel: "Name",
     namePlaceholder: "Your name",
