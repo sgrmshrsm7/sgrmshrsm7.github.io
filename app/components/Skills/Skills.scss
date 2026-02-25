@@ -30,12 +30,11 @@
     gap: $spacing-20;
     width: 100%;
 
-    @media (max-width: 1024px) {
-      grid-template-columns: repeat(2, 1fr);
-    }
-
-    @media (max-width: 640px) {
-      grid-template-columns: 1fr;
+    @include respond-max($bp-lg) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: $spacing-16;
     }
   }
 
@@ -50,9 +49,14 @@
     &:hover {
       box-shadow: var(--shadow-lg);
     }
+    @include respond-max($bp-lg) {
+      max-width: 40%;
+    }
   }
+
   h3 {
     text-align: left;
+    font-size: $font-size-lg;
   }
 
   .skills__tags {
@@ -62,12 +66,73 @@
   }
 
   .skills__tag {
-    // background: $background-grey;
     border: $border-width-1 dashed var(--border);
     border-radius: $border-radius-50;
     padding: $spacing-6 $spacing-12;
     font-size: $font-size-sm;
     color: var(--text);
     white-space: nowrap;
+  }
+
+  @include respond-max($bp-md) {
+    .skills__title {
+      font-size: $font-size-2xl;
+      margin-bottom: $spacing-12;
+    }
+
+    .skills__description {
+      font-size: $font-size-sm;
+      margin-bottom: $spacing-16;
+    }
+
+    .skills__category-card {
+      padding: $spacing-16;
+      gap: $spacing-12;
+    }
+
+    h3 {
+      font-size: $font-size-md;
+    }
+
+    .skills__tag {
+      padding: $spacing-4 $spacing-10;
+      font-size: $font-size-xs;
+      white-space: normal;
+      word-break: break-word;
+      overflow-wrap: anywhere;
+    }
+  }
+
+  @include respond-max($bp-sm) {
+    padding-bottom: $spacing-16;
+
+    .skills__title {
+      font-size: $font-size-xl;
+    }
+
+    .skills__description {
+      font-size: $font-size-xs;
+    }
+
+    .skills__category-card {
+      padding: $spacing-12;
+      gap: $spacing-8;
+    }
+
+    h3 {
+      font-size: $font-size-sm;
+    }
+
+    .skills__tags {
+      gap: $spacing-6;
+    }
+
+    .skills__tag {
+      padding: $spacing-3 $spacing-8;
+      font-size: 10px;
+      white-space: normal;
+      word-break: break-word;
+      overflow-wrap: anywhere;
+    }
   }
 }

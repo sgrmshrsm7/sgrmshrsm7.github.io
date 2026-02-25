@@ -3,6 +3,7 @@
 .experience {
   width: 100%;
   padding-bottom: $spacing-32;
+
   .experience__timeline {
     position: relative;
     padding-left: $spacing-32;
@@ -15,7 +16,7 @@
       top: $spacing-6;
       bottom: 0;
       width: 2px;
-      background: $light-grey;
+      background: var(--border);
       border-radius: $border-radius-2;
     }
   }
@@ -76,10 +77,8 @@
     grid-template-columns: repeat(2, 1fr);
     gap: $spacing-12;
     margin-top: $spacing-12;
-
-    @media (max-width: 640px) {
-      grid-template-columns: 1fr;
-    }
+    width: 100%;
+    max-width: 800px;
   }
 
   .experience__achievement-card {
@@ -89,7 +88,6 @@
     font-size: $font-size-sm;
     color: var(--text);
     line-height: 1.5;
-    width: $spacing-400;
     transition-duration: 0.5s;
     &:hover {
       box-shadow: var(--shadow-lg);
@@ -98,5 +96,87 @@
 
   .experience__achievement-highlight {
     font-weight: $font-bold;
+  }
+
+  @include respond-max($bp-md) {
+    .experience__timeline {
+      padding-left: $spacing-24;
+
+      &::before {
+        left: $spacing-5;
+      }
+    }
+
+    .experience__marker {
+      left: -$spacing-18;
+    }
+
+    .experience__title {
+      font-size: $font-size-md;
+    }
+
+    .experience__meta {
+      gap: $spacing-12;
+      font-size: $font-size-xs;
+    }
+
+    .experience__achievements {
+      max-width: 100%;
+    }
+
+    .experience__achievement-card {
+      padding: $spacing-10 $spacing-12;
+      font-size: $font-size-xs;
+    }
+  }
+
+  @include respond-max($bp-sm) {
+    padding-bottom: $spacing-16;
+
+    .experience__timeline {
+      padding-left: $spacing-20;
+      margin-top: $spacing-16;
+
+      &::before {
+        left: $spacing-5;
+      }
+    }
+
+    .experience__marker {
+      left: -$spacing-14;
+      width: 10px;
+      height: 10px;
+    }
+
+    .experience__entry {
+      margin-bottom: $spacing-16;
+    }
+
+    .experience__content {
+      gap: $spacing-6;
+    }
+
+    .experience__title {
+      font-size: $font-size-sm;
+    }
+
+    .experience__meta {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: $spacing-4;
+      font-size: 11px;
+    }
+
+    .experience__achievements {
+      grid-template-columns: 1fr;
+      gap: $spacing-8;
+      max-width: 100%;
+    }
+
+    .experience__achievement-card {
+      padding: $spacing-8 $spacing-10;
+      font-size: 11px;
+    }
   }
 }

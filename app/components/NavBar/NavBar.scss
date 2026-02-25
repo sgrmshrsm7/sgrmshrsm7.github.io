@@ -4,6 +4,17 @@
   position: fixed;
   top: $spacing-20;
   z-index: 9;
+  display: flex;
+  align-items: center;
+  gap: $spacing-8;
+
+  // Mobile: keep navbar anchored to the left so the hamburger is not centered
+  @include respond-max($bp-sm) {
+    left: $spacing-12;
+    right: auto;
+    top: $spacing-12;
+    justify-content: flex-start;
+  }
 
   .nav-links {
     display: flex;
@@ -16,12 +27,17 @@
     &:hover {
       box-shadow: var(--shadow-lg);
     }
+    /* Mobile: hide the regular nav links and show mobile toggle */
+    @include respond-max($bp-sm) {
+      display: none;
+    }
     .nav-link {
       font-size: $font-size-lg;
       font-weight: $font-bold;
     }
 
     .theme-toggle {
+      margin-top: -$spacing-4;
       margin-left: $spacing-8;
       background: transparent;
       border: none;
@@ -41,5 +57,102 @@
         }
       }
     }
+  }
+
+  /* Mobile toggle button visible only on small screens */
+  .mobile-toggle {
+    display: none;
+    background: transparent;
+    border: none;
+    color: var(--text);
+    padding: $spacing-8;
+    border-radius: $border-radius-6;
+    cursor: pointer;
+    transition: color 0.3s;
+    &:hover {
+      color: $primary-color;
+    }
+    @include respond-max($bp-sm) {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  /* Mobile menu overlay */
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 15;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: flex-end;
+
+    .mobile-menu-inner {
+      background: var(--panel);
+      width: 100%;
+      max-width: 300px;
+      display: flex;
+      flex-direction: column;
+      gap: $spacing-12;
+      padding: $spacing-20;
+      box-shadow: var(--shadow-lg);
+      overflow-y: auto;
+      animation: slideIn 0.3s ease-out;
+    }
+
+    .mobile-link {
+      padding: $spacing-12 $spacing-16;
+      border-radius: $border-radius-8;
+      text-decoration: none;
+      color: var(--text);
+      font-weight: $font-medium;
+      font-size: $font-size-lg;
+      transition:
+        background-color 0.2s,
+        color 0.2s;
+      &:hover {
+        background: var(--bg);
+        color: $primary-color;
+      }
+    }
+
+    .mobile-theme-toggle {
+      margin-top: $spacing-12;
+      align-self: flex-start;
+      display: inline-flex;
+      align-items: center;
+      gap: $spacing-8;
+      padding: $spacing-8 $spacing-16;
+      border-radius: $border-radius-28;
+      border: $border-width-1 solid var(--border);
+      background: transparent;
+      color: var(--text);
+      cursor: pointer;
+      font-size: $font-size-sm;
+      font-weight: $font-medium;
+      transition:
+        background-color 0.2s,
+        color 0.2s,
+        box-shadow 0.2s;
+
+      &:hover {
+        background: var(--bg);
+        color: $primary-color;
+        box-shadow: var(--shadow-lg);
+      }
+    }
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
   }
 }

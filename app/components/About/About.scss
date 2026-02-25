@@ -4,5 +4,22 @@
   p {
     width: 90%;
     margin: $spacing-6 auto;
+    font-size: $font-size-md;
+    line-height: 1.8;
+  }
+
+  @include respond-max($bp-md) {
+    p {
+      width: 95%;
+      font-size: $font-size-sm;
+    }
+  }
+
+  @include respond-max($bp-sm) {
+    p {
+      width: 98%;
+      font-size: $font-size-xs;
+      margin: $spacing-4 auto;
+    }
   }
 }

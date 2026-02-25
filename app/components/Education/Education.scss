@@ -38,16 +38,62 @@
     display: flex;
     align-items: center;
     gap: $spacing-6;
+    font-size: $font-size-sm;
 
     svg {
       flex-shrink: 0;
     }
   }
 
-  @media (max-width: 768px) {
+  @include respond-max($bp-lg) {
+    .education__cards {
+      grid-template-columns: repeat(2, minmax(220px, 1fr));
+    }
+  }
+
+  @include respond-max($bp-md) {
     .education__cards {
       grid-template-columns: 1fr;
       gap: $spacing-16;
+      margin-top: $spacing-16;
+    }
+
+    .education__card {
+      padding: $spacing-16;
+    }
+
+    .education__institution {
+      font-size: $font-size-md;
+    }
+
+    .education__meta-item {
+      font-size: $font-size-xs;
+    }
+  }
+
+  @include respond-max($bp-sm) {
+    padding-bottom: $spacing-16;
+
+    .education__cards {
+      gap: $spacing-12;
+      margin-top: $spacing-12;
+    }
+
+    .education__card {
+      padding: $spacing-12;
+    }
+
+    .education__content {
+      gap: $spacing-6;
+    }
+
+    .education__institution {
+      font-size: $font-size-md;
+    }
+
+    .education__meta-item {
+      font-size: 10px;
+      gap: $spacing-4;
     }
   }
 }

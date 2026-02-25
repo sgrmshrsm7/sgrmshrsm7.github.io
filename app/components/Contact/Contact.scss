@@ -1,11 +1,5 @@
 @use "../../styles/index" as *;
 
-$contact-bg: #0f172a;
-$contact-bg-input: #1e293b;
-$contact-accent: #38bdf8;
-$contact-btn: #2563eb;
-$contact-border: #334155;
-
 .contact {
   .contact__inner {
     max-width: $spacing-1200;
@@ -21,12 +15,14 @@ $contact-border: #334155;
       flex-direction: column;
       gap: $spacing-20;
       padding: $spacing-16 $spacing-32;
+
       .contact__heading {
         text-align: left;
+        font-size: $font-size-3xl;
       }
 
       .contact__description {
-        font-size: 1rem;
+        font-size: $font-size-md;
         line-height: 1.6;
         margin: 0;
       }
@@ -41,7 +37,6 @@ $contact-border: #334155;
         display: flex;
         align-items: center;
         gap: $spacing-12;
-        // color: $white;
 
         .contact__detail-link {
           display: flex;
@@ -54,13 +49,14 @@ $contact-border: #334155;
 
       .contact__detail-icon {
         flex-shrink: 0;
-        // color: $white;
       }
 
       .contact__social {
         display: flex;
+        flex-wrap: wrap;
         gap: $spacing-16;
         margin-top: $spacing-8;
+
         .contact__social-link {
           display: flex;
           align-items: center;
@@ -90,11 +86,92 @@ $contact-border: #334155;
       gap: $spacing-20;
       padding: $spacing-16 $spacing-32;
       border-left: $border-width-2 dashed var(--border);
+
       .contact__field {
         display: flex;
         flex-direction: column;
         gap: $spacing-8;
         width: 100%;
+      }
+    }
+
+    @include respond-max($bp-md) {
+      grid-template-columns: 1fr;
+      gap: $spacing-32;
+      padding: $spacing-16;
+
+      .contact__left {
+        padding: $spacing-16;
+
+        .contact__heading {
+          font-size: $font-size-2xl;
+        }
+
+        .contact__description {
+          font-size: $font-size-md;
+        }
+
+        .contact__social {
+          gap: $spacing-12;
+
+          .contact__social-link {
+            width: 40px;
+            height: 40px;
+          }
+        }
+      }
+
+      .contact__form {
+        align-items: stretch;
+        padding: $spacing-16;
+        border-left: none;
+        border-top: $border-width-2 dashed var(--border);
+      }
+    }
+
+    @include respond-max($bp-sm) {
+      gap: $spacing-16;
+      padding: $spacing-8;
+
+      .contact__left {
+        padding: $spacing-12;
+        gap: $spacing-12;
+
+        .contact__heading {
+          font-size: $font-size-xl;
+        }
+
+        .contact__description {
+          font-size: $font-size-sm;
+        }
+
+        .contact__details {
+          gap: $spacing-12;
+        }
+
+        .contact__detail-row {
+          gap: $spacing-8;
+          font-size: $font-size-sm;
+        }
+
+        .contact__social {
+          gap: $spacing-8;
+
+          .contact__social-link {
+            width: 36px;
+            height: 36px;
+            font-size: $font-size-sm;
+          }
+        }
+      }
+
+      .contact__form {
+        padding: $spacing-12;
+        gap: $spacing-12;
+
+        .contact__field {
+          gap: $spacing-6;
+        }
       }
     }
   }

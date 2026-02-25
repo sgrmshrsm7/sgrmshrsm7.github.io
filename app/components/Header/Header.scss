@@ -5,20 +5,48 @@
   top: 0;
   background-color: var(--panel);
   width: 100%;
+  z-index: 10;
+
   .navbar {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-shadow: var(--shadow-sm);
+    padding: $spacing-12 $spacing-24;
+
     .logo {
       font-size: $font-size-2xl;
       font-weight: $font-bold;
       color: var(--text);
       text-decoration: none;
-      padding: $spacing-8 $spacing-20;
+      padding: $spacing-8 $spacing-16;
+      transition: color 0.2s;
+
       span {
         color: $primary-color;
+      }
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+
+    @include respond-max($bp-md) {
+      padding: $spacing-12 $spacing-16;
+
+      .logo {
+        font-size: $font-size-xl;
+        padding: $spacing-6 $spacing-12;
+      }
+    }
+
+    @include respond-max($bp-sm) {
+      padding: $spacing-8 $spacing-12;
+
+      .logo {
+        font-size: $font-size-lg;
+        padding: $spacing-4 $spacing-8;
       }
     }
   }

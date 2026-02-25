@@ -18,6 +18,19 @@ html {
   scroll-margin-top: $spacing-128;
 }
 
+/* Mobile: reduce scroll margin for fixed navbar */
+@include respond-max($bp-md) {
+  #about,
+  #skills,
+  #experience,
+  #education,
+  #projects,
+  #achievements,
+  #contact {
+    scroll-margin-top: $spacing-48;
+  }
+}
+
 :root {
   --font-stack:
     var(--font-handlee), system-ui, -apple-system, "Segoe UI", Roboto,
@@ -118,8 +131,45 @@ main {
   }
 }
 
+/* Reduce top margin around sections on smaller screens */
+@include respond-max($bp-md) {
+  main {
+    padding-bottom: $spacing-32;
+    section {
+      margin-top: $spacing-48;
+      margin: $spacing-16;
+      padding: $spacing-16;
+      max-width: 90%;
+      h2 {
+        font-size: $font-size-3xl;
+      }
+      p {
+        font-size: $font-size-md;
+      }
+    }
+  }
+}
+
+@include respond-max($bp-sm) {
+  main {
+    padding-bottom: $spacing-24;
+    section {
+      margin-top: $spacing-32;
+      margin: $spacing-8;
+      padding: $spacing-12;
+      h2 {
+        font-size: $font-size-2xl;
+        margin: $spacing-8 auto;
+      }
+      p {
+        font-size: $font-size-sm;
+      }
+    }
+  }
+}
+
 label {
-  font-size: 0.875rem;
+  font-size: $font-size-sm;
   font-weight: $font-medium;
 }
 
@@ -128,9 +178,20 @@ textarea {
   padding: $spacing-8 $spacing-12;
   border: 1px solid var(--border);
   border-radius: $border-radius-8;
-  font-size: 1rem;
+  font-size: $font-size-md;
   font-family: inherit;
   transition: border-color 0.2s;
+}
+
+@include respond-max($bp-sm) {
+  label {
+    font-size: $font-size-xs;
+  }
+  input,
+  textarea {
+    padding: $spacing-6 $spacing-10;
+    font-size: $font-size-sm;
+  }
 }
 
 textarea {

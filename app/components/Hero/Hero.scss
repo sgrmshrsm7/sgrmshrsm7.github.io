@@ -15,20 +15,26 @@
     justify-content: center;
     align-items: center;
     max-width: $spacing-1200;
+    padding: $spacing-32;
   }
 
   .hero-title {
     margin: $spacing-8;
     font-size: $font-size-4xl;
+    text-align: center;
   }
 
   .hero-tag {
     margin: $spacing-4;
+    font-size: $font-size-lg;
+    text-align: center;
   }
 
   .hero-description {
     font-size: $font-size-lg;
     margin: $spacing-16 0;
+    text-align: center;
+    padding: 0 $spacing-16;
   }
 
   .hero-quote {
@@ -45,5 +51,64 @@
     .hero-quote-author {
       text-align: right;
     }
+  }
+
+  @include respond-max($bp-md) {
+    height: 100vh;
+    padding: $spacing-32 0;
+
+    .hero-content {
+      padding: $spacing-24;
+    }
+
+    .hero-title {
+      font-size: $font-size-3xl;
+    }
+
+    .hero-tag {
+      font-size: $font-size-md;
+    }
+
+    .hero-description {
+      font-size: $font-size-md;
+      padding: 0 $spacing-8;
+    }
+
+    .hero-quote {
+      width: 90%;
+      padding: $spacing-12;
+      margin: $spacing-12 0;
+      font-size: $font-size-sm;
+    }
+  }
+
+  @include respond-max($bp-sm) {
+    .hero-content {
+      padding: $spacing-12;
+    }
+
+    .hero-title {
+      font-size: $font-size-2xl;
+      margin: $spacing-8 0;
+    }
+
+    .hero-tag {
+      font-size: $font-size-sm;
+    }
+
+    .hero-description {
+      font-size: $font-size-xs;
+      margin: $spacing-8 0;
+      padding: 0 $spacing-4;
+    }
+
+    .hero-quote {
+      width: 95%;
+      padding: $spacing-8;
+      margin: $spacing-8 0;
+      font-size: 10px;
+    }
+
+    height: 100vh;
   }
 }
